@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-warm-ivory: #FAF8F5;
+    --text-charcoal: #14171C;
+    --text-muted: #56616D;
+    --brand-gold: #B88E2F;
+    --brand-gold-hover: #9E7722;
+    --brand-gold-light: #F9F5EC;
+    --brand-gold-border: #E8D7B8;
+    --brand-navy: #0F2C59;
+    --brand-navy-dark: #0A1C38;
+    --card-white: #FFFFFF;
+    --border-subtle: #EAE5DC;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color: var(--text-charcoal);
+    background-color: var(--bg-warm-ivory);
+  }
+
+  body {
+    background-color: var(--bg-warm-ivory);
+    color: var(--text-charcoal);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom styling utilities for luxury look */
+.bg-warm-ivory {
+  background-color: #FAF8F5;
+}
+
+.text-charcoal {
+  color: #14171C;
+}
+
+.text-muted-gray {
+  color: #56616D;
+}
+
+.bg-champagne-light {
+  background-color: #F9F5EC;
+}
+
+.border-champagne {
+  border-color: #E8D7B8;
+}
+
+.border-subtle {
+  border-color: #EAE5DC;
+}
+
+.text-gold {
+  color: #B88E2F;
+}
+
+.bg-navy {
+  background-color: #0F2C59;
+}
+
+.bg-navy-dark {
+  background-color: #0A1C38;
+}
+
+/* Subtle focus ring for accessibility */
+*:focus-visible {
+  outline: 2px solid #B88E2F;
+  outline-offset: 2px;
+}
+
+/* Restrained transitions */
+a, button {
+  transition-property: color, background-color, border-color, transform, box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Hide Next.js development indicator badge and overlay artifacts */
+nextjs-portal,
+[data-nextjs-dev-tools-indicator],
+[data-next-badge-root],
+[data-next-badge],
+div[data-nextjs-toast-wrapper],
+#nextjs-dev-tools-root {
+  display: none !important;
+}
+
