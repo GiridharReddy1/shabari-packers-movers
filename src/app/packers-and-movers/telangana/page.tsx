@@ -56,10 +56,41 @@ export default function TelanganaStatePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div className="lg:col-span-7 space-y-10">
+              {/* Kothagudem Registered Head Office Spotlight */}
+              <div className="p-6 sm:p-8 bg-[#FAF8F5] rounded-3xl border border-[#E8D7B8] shadow-xs">
+                <span className="text-xs font-bold uppercase tracking-wider text-[#B88E2F]">
+                  Official Headquarters & Registered Office
+                </span>
+                <h2 className="text-2xl font-bold text-[#14171C] font-serif mt-1 mb-2">
+                  Kothagudem Headquarters
+                </h2>
+                <p className="text-xs text-[#857567] mb-3">
+                  📍 Near Bhajan Mandir Road, Kothagudem, Telangana 507101
+                </p>
+                <p className="text-sm text-[#56616D] leading-relaxed mb-4">
+                  Our registered central office is based in Kothagudem. We manage residential moves, Singareni Collieries employee shifting, and direct transport dispatches across Telangana, Andhra Pradesh, and Karnataka.
+                </p>
+                <div className="flex flex-wrap items-center gap-3">
+                  <Link
+                    href="/packers-and-movers/kothagudem"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-white bg-[#0F2C59] hover:bg-[#0A1C38] transition-colors"
+                  >
+                    <span>View Kothagudem Guide</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-[#0F2C59] bg-[#E8D7B8]/40 hover:bg-[#E8D7B8] border border-[#E8D7B8] transition-colors"
+                  >
+                    <span>Visit Office & Driving Directions</span>
+                  </Link>
+                </div>
+              </div>
+
               {/* Primary Hyderabad Hub Spotlight */}
               <div className="p-6 sm:p-8 bg-[#FAF8F5] rounded-3xl border border-[#E8D7B8] shadow-xs">
                 <span className="text-xs font-bold uppercase tracking-wider text-[#B88E2F]">
-                  State Headquarters & Primary Dispatch Hub
+                  State Capital & Primary Dispatch Hub
                 </span>
                 <h2 className="text-2xl font-bold text-[#14171C] font-serif mt-1 mb-3">
                   Greater Hyderabad Operations

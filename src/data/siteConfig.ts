@@ -19,7 +19,7 @@ export const siteConfig: BusinessInfo = {
   },
   operatingHours: 'Monday – Sunday: 7:00 AM – 9:30 PM (Customer Support & Enquiries)',
   establishedNotice: 'Serving Hyderabad, Telangana, Andhra Pradesh, and Karnataka with personalized relocation care.',
-  baseUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://shabaripackers.com',
+  baseUrl: process.env.NEXT_PUBLIC_SITE_URL || 'https://shabaripackersandmovers.in',
   primaryServiceStates: ['Telangana', 'Andhra Pradesh', 'Karnataka'],
 };
 

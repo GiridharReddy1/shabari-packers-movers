@@ -1,4 +1,5 @@
 import React from 'react';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import {
@@ -22,7 +23,14 @@ import LocationDirectory from '@/components/LocationDirectory';
 import QuoteForm from '@/components/QuoteForm';
 import FAQAccordion from '@/components/FAQAccordion';
 import StructuredData from '@/components/StructuredData';
-import { generateFaqSchema } from '@/lib/seo';
+import { constructMetadata, generateFaqSchema } from '@/lib/seo';
+
+export const metadata: Metadata = constructMetadata({
+  title: 'Best Packers and Movers in Hyderabad, Telangana, AP & Karnataka',
+  description:
+    'Shabari Packers and Movers offers trusted household shifting, office relocation, vehicle transport & safe packing across Telangana, Andhra Pradesh & Karnataka. Direct coordinator & free quotation!',
+  canonicalPath: '/',
+});
 
 const homeFaqs = [
   {

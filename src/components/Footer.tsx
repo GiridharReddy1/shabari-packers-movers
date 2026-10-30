@@ -233,25 +233,118 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Hyderabad Localities Tag Cloud */}
-        <div className="py-8 border-b border-stone-800">
-          <p className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] mb-3">
-            Popular Hyderabad Moving Locations
-          </p>
-          <div className="flex flex-wrap gap-2 text-xs text-stone-400">
-            <Link href="/packers-and-movers/hyderabad/gachibowli" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Gachibowli</Link>
-            <Link href="/packers-and-movers/hyderabad/kondapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kondapur</Link>
-            <Link href="/packers-and-movers/hyderabad/madhapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Madhapur</Link>
-            <Link href="/packers-and-movers/hyderabad/hitec-city" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">HITEC City</Link>
-            <Link href="/packers-and-movers/hyderabad/kukatpally" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kukatpally</Link>
-            <Link href="/packers-and-movers/hyderabad/miyapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Miyapur</Link>
-            <Link href="/packers-and-movers/hyderabad/manikonda" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Manikonda</Link>
-            <Link href="/packers-and-movers/hyderabad/kokapet" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kokapet</Link>
-            <Link href="/packers-and-movers/hyderabad/banjara-hills" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Banjara Hills</Link>
-            <Link href="/packers-and-movers/hyderabad/jubilee-hills" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Jubilee Hills</Link>
-            <Link href="/packers-and-movers/hyderabad/uppal" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Uppal</Link>
-            <Link href="/packers-and-movers/hyderabad/lb-nagar" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">LB Nagar</Link>
-            <Link href="/packers-and-movers/hyderabad/secunderabad" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Secunderabad</Link>
+        {/* Regional District Links for Search Engine Spidering & Quick Access */}
+        <div className="py-8 border-b border-stone-800 space-y-6">
+          {/* Telangana Districts */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] mb-2.5">
+              Telangana Districts & Hubs
+            </p>
+            <div className="flex flex-wrap gap-2 text-xs text-stone-400">
+              <Link href="/packers-and-movers/kothagudem" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-[#B88E2F]/60 text-[#E8D7B8] font-medium">📍 Kothagudem (Head Office)</Link>
+              <Link href="/packers-and-movers/hyderabad" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Hyderabad (Primary Hub)</Link>
+              <Link href="/packers-and-movers/warangal" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Warangal</Link>
+              <Link href="/packers-and-movers/karimnagar" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Karimnagar</Link>
+              <Link href="/packers-and-movers/khammam" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Khammam</Link>
+              <Link href="/packers-and-movers/nizamabad" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Nizamabad</Link>
+              <Link href="/packers-and-movers/siddipet" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Siddipet</Link>
+              <Link href="/packers-and-movers/ramagundam" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Ramagundam</Link>
+              <Link href="/packers-and-movers/mahabubnagar" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Mahabubnagar</Link>
+              <Link href="/packers-and-movers/nalgonda" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Nalgonda</Link>
+              <Link href="/packers-and-movers/suryapet" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Suryapet</Link>
+              <Link href="/packers-and-movers/sangareddy" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Sangareddy</Link>
+              <Link href="/packers-and-movers/mancherial" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Mancherial</Link>
+              <Link href="/packers-and-movers/adilabad" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Adilabad</Link>
+              <Link href="/packers-and-movers/jagtial" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Jagtial</Link>
+              <Link href="/packers-and-movers/kamareddy" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kamareddy</Link>
+              <Link href="/packers-and-movers/nirmal" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Nirmal</Link>
+              <Link href="/packers-and-movers/vikarabad" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Vikarabad</Link>
+              <Link href="/packers-and-movers/wanaparthy" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Wanaparthy</Link>
+              <Link href="/packers-and-movers/gadwal" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Gadwal</Link>
+              <Link href="/packers-and-movers/nagarkurnool" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Nagarkurnool</Link>
+              <Link href="/packers-and-movers/yadadri-bhuvanagiri" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Yadadri Bhuvanagiri</Link>
+            </div>
+          </div>
+
+          {/* Andhra Pradesh Cities & Towns */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] mb-2.5">
+              Andhra Pradesh Cities & Towns
+            </p>
+            <div className="flex flex-wrap gap-2 text-xs text-stone-400">
+              <Link href="/packers-and-movers/vijayawada" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Vijayawada</Link>
+              <Link href="/packers-and-movers/visakhapatnam" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Visakhapatnam</Link>
+              <Link href="/packers-and-movers/guntur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Guntur</Link>
+              <Link href="/packers-and-movers/tirupati" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Tirupati</Link>
+              <Link href="/packers-and-movers/kurnool" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kurnool</Link>
+              <Link href="/packers-and-movers/nellore" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Nellore</Link>
+              <Link href="/packers-and-movers/anantapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Anantapur</Link>
+              <Link href="/packers-and-movers/rajahmundry" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Rajahmundry</Link>
+              <Link href="/packers-and-movers/kakinada" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kakinada</Link>
+              <Link href="/packers-and-movers/kadapa" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kadapa</Link>
+              <Link href="/packers-and-movers/ongole" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Ongole</Link>
+              <Link href="/packers-and-movers/eluru" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Eluru</Link>
+              <Link href="/packers-and-movers/bhimavaram" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Bhimavaram</Link>
+              <Link href="/packers-and-movers/machilipatnam" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Machilipatnam</Link>
+              <Link href="/packers-and-movers/nandyal" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Nandyal</Link>
+              <Link href="/packers-and-movers/hindupur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Hindupur</Link>
+              <Link href="/packers-and-movers/proddatur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Proddatur</Link>
+              <Link href="/packers-and-movers/tenali" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Tenali</Link>
+              <Link href="/packers-and-movers/amaravati" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Amaravati</Link>
+            </div>
+          </div>
+
+          {/* Karnataka Cities */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] mb-2.5">
+              Karnataka Moving Hubs
+            </p>
+            <div className="flex flex-wrap gap-2 text-xs text-stone-400">
+              <Link href="/packers-and-movers/bengaluru" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Bengaluru</Link>
+              <Link href="/packers-and-movers/mysuru" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Mysuru</Link>
+              <Link href="/packers-and-movers/mangaluru" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Mangaluru</Link>
+              <Link href="/packers-and-movers/hubballi" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Hubballi</Link>
+              <Link href="/packers-and-movers/belagavi" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Belagavi</Link>
+              <Link href="/packers-and-movers/ballari" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Ballari</Link>
+              <Link href="/packers-and-movers/kalaburagi" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kalaburagi</Link>
+              <Link href="/packers-and-movers/shivamogga" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Shivamogga</Link>
+              <Link href="/packers-and-movers/davanagere" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Davanagere</Link>
+              <Link href="/packers-and-movers/tumakuru" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Tumakuru</Link>
+              <Link href="/packers-and-movers/raichur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Raichur</Link>
+              <Link href="/packers-and-movers/bidar" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Bidar</Link>
+              <Link href="/packers-and-movers/vijayapura" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Vijayapura</Link>
+              <Link href="/packers-and-movers/hassan" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Hassan</Link>
+              <Link href="/packers-and-movers/mandya" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Mandya</Link>
+              <Link href="/packers-and-movers/chikkamagaluru" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Chikkamagaluru</Link>
+              <Link href="/packers-and-movers/bagalkote" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Bagalkote</Link>
+              <Link href="/packers-and-movers/kolar" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kolar</Link>
+              <Link href="/packers-and-movers/chitradurga" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Chitradurga</Link>
+              <Link href="/packers-and-movers/yadgir" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Yadgir</Link>
+              <Link href="/packers-and-movers/hosapete" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Hosapete</Link>
+              <Link href="/packers-and-movers/udupi" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Udupi</Link>
+            </div>
+          </div>
+
+          {/* Hyderabad Localities Tag Cloud */}
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] mb-2.5">
+              Popular Hyderabad Moving Localities
+            </p>
+            <div className="flex flex-wrap gap-2 text-xs text-stone-400">
+              <Link href="/packers-and-movers/hyderabad/gachibowli" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Gachibowli</Link>
+              <Link href="/packers-and-movers/hyderabad/kondapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kondapur</Link>
+              <Link href="/packers-and-movers/hyderabad/madhapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Madhapur</Link>
+              <Link href="/packers-and-movers/hyderabad/hitec-city" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">HITEC City</Link>
+              <Link href="/packers-and-movers/hyderabad/kukatpally" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kukatpally</Link>
+              <Link href="/packers-and-movers/hyderabad/miyapur" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Miyapur</Link>
+              <Link href="/packers-and-movers/hyderabad/manikonda" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Manikonda</Link>
+              <Link href="/packers-and-movers/hyderabad/kokapet" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Kokapet</Link>
+              <Link href="/packers-and-movers/hyderabad/banjara-hills" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Banjara Hills</Link>
+              <Link href="/packers-and-movers/hyderabad/jubilee-hills" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Jubilee Hills</Link>
+              <Link href="/packers-and-movers/hyderabad/uppal" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Uppal</Link>
+              <Link href="/packers-and-movers/hyderabad/lb-nagar" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">LB Nagar</Link>
+              <Link href="/packers-and-movers/hyderabad/secunderabad" className="hover:text-white bg-stone-900/80 px-2.5 py-1 rounded border border-stone-800">Secunderabad</Link>
+            </div>
           </div>
         </div>
 

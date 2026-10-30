@@ -11,7 +11,7 @@ export const statesData: StateLocation[] = [
     metaTitle: 'Packers and Movers Across Telangana | Shabari Packers and Movers',
     metaDescription: 'Trusted packing and moving services across Telangana. Serving Hyderabad, Warangal, Karimnagar, Khammam, Nizamabad, and surrounding districts.',
     overview: 'As our home state and primary operational base, Telangana enjoys comprehensive relocation coverage from Shabari Packers and Movers. With our central dispatch located in Hyderabad, we coordinate regular local shifting, inter-district transfers, and long-distance departures connecting every major industrial and residential centre across the state.',
-    keyHubs: ['Hyderabad', 'Warangal', 'Karimnagar', 'Khammam', 'Nizamabad', 'Nalgonda', 'Mahabubnagar', 'Sangareddy'],
+    keyHubs: ['Hyderabad', 'Kothagudem', 'Warangal', 'Karimnagar', 'Khammam', 'Nizamabad', 'Nalgonda', 'Mahabubnagar', 'Siddipet', 'Ramagundam', 'Sangareddy', 'Mancherial'],
   },
   {
     id: 'andhra-pradesh',
@@ -23,7 +23,7 @@ export const statesData: StateLocation[] = [
     metaTitle: 'Packers and Movers Across Andhra Pradesh | Shabari Packers and Movers',
     metaDescription: 'Reliable relocation services across Andhra Pradesh. Connecting Vijayawada, Visakhapatnam, Guntur, Tirupati, Kurnool, Nellore, and Rajahmundry.',
     overview: 'Shabari Packers and Movers operates regular moving schedules between Hyderabad and Andhra Pradesh along the NH65 and NH16 corridors. From the coastal commercial hub of Visakhapatnam and the capital region of Vijayawada-Guntur to Rayalaseema gateways like Tirupati and Kurnool, our team ensures smooth, disciplined domestic moves.',
-    keyHubs: ['Vijayawada', 'Visakhapatnam', 'Guntur', 'Tirupati', 'Kurnool', 'Nellore', 'Rajahmundry', 'Kakinada'],
+    keyHubs: ['Vijayawada', 'Visakhapatnam', 'Guntur', 'Tirupati', 'Kurnool', 'Nellore', 'Anantapur', 'Rajahmundry', 'Kakinada', 'Kadapa', 'Ongole'],
   },
   {
     id: 'karnataka',
@@ -35,7 +35,7 @@ export const statesData: StateLocation[] = [
     metaTitle: 'Packers and Movers Across Karnataka | Shabari Packers and Movers',
     metaDescription: 'Professional moving services across Karnataka. Connecting Bengaluru, Mysuru, Mangaluru, Hubballi, Belagavi, and surrounding cities.',
     overview: 'Karnataka is one of our most frequent long-distance transit corridors, especially the high-demand Hyderabad to Bengaluru route along NH44. We provide dedicated household shifting, corporate employee relocations, and two-wheeler carriers connecting Karnataka cities with complete door-to-door coordination.',
-    keyHubs: ['Bengaluru', 'Mysuru', 'Mangaluru', 'Hubballi', 'Belagavi', 'Kalaburagi', 'Davanagere', 'Tumakuru'],
+    keyHubs: ['Bengaluru', 'Mysuru', 'Mangaluru', 'Hubballi', 'Belagavi', 'Ballari', 'Kalaburagi', 'Shivamogga', 'Davanagere', 'Tumakuru', 'Raichur', 'Bidar'],
   },
 ];
 
@@ -842,6 +842,463 @@ export const citiesData: CityLocation[] = [
     ],
   },
 
+  {
+    id: "kothagudem",
+    slug: "kothagudem",
+    name: "Kothagudem",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Kothagudem | Shabari Head Office",
+    metaDescription: "Official headquarters of Shabari Packers and Movers in Kothagudem (near Bhajan Mandir Road). Safe home shifting, SCCL employee relocation & intercity moving.",
+    heroHeadline: "Packers and Movers in Kothagudem, Telangana (Head Office)",
+    summary: "Kothagudem is the official headquarters and central administrative base of Shabari Packers and Movers. Located near Bhajan Mandir Road (Pincode: 507101), our local office coordinates residential moves, Singareni Collieries employee shifting, and direct transport across Telangana, AP, and Karnataka.",
+    localDetails: {
+      description: "Serving Kothagudem, Palwancha, Bhadrachalam, Yellandu, and the entire Bhadradri Kothagudem district with premium packing materials, dedicated carrier vehicles, and verified moving crews.",
+      servicesOffered: [
+        "Local Household Shifting in Kothagudem",
+        "Singareni Collieries & PSU Employee Relocation",
+        "Direct Routes: Kothagudem to Hyderabad & Khammam",
+        "Interstate Moves to Andhra Pradesh & Karnataka",
+        "Two-Wheeler & Bike Transportation",
+        "Multi-Layer Fragile Packing"
+],
+      popularLocalities: [
+        "Bhajan Mandir Road",
+        "Palwancha",
+        "Rudrampur",
+        "Chunchupalli",
+        "Writer Basti",
+        "Coolie Line",
+        "Old Kothagudem"
+],
+      movingTips: [
+        "Visit our local office near Bhajan Mandir Road for in-person moving consultations",
+        "Book 2 to 3 days in advance for long-distance transfers to Hyderabad or Vijayawada"
+],
+      roadConnectivity: "Prime transit connectivity via NH30 and state highways connecting to Khammam (approx. 70 km), Warangal, and Hyderabad.",
+    },
+    faqs: [
+      {
+        question: "Where is the Shabari Packers and Movers office located in Kothagudem?",
+        answer: "Our office is located near Bhajan Mandir Road, Kothagudem, Telangana 507101. Customers are warmly welcomed to visit our office or call +91 98481 61321.",
+      },
+      {
+        question: "Do you provide shifting services for SCCL employees in Kothagudem?",
+        answer: "Yes, we regularly provide compliant packing and moving services with detailed GST invoices and transit documentation for Singareni Collieries Company Limited (SCCL) and government employees.",
+      },
+      {
+        question: "How fast can goods be moved from Kothagudem to Hyderabad?",
+        answer: "Direct door-to-door transit between Kothagudem and Hyderabad is typically completed within 6 to 8 hours under normal highway conditions.",
+      },
+    ],
+  },
+  {
+    id: "siddipet",
+    slug: "siddipet",
+    name: "Siddipet",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Siddipet | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Siddipet, Telangana. Safe household shifting, commercial moving, and daily transport connecting to Hyderabad and Karimnagar.",
+    heroHeadline: "Packers and Movers in Siddipet, Telangana",
+    summary: "Siddipet is a rapidly developing urban and commercial hub in central Telangana. Shabari Packers and Movers offers organized household moving, agricultural family shifting, and swift transit along the Rajiv Rahadari.",
+    localDetails: {
+      description: "Serving Siddipet, Dubbak, and Gajwel with protective bubble wrap, corrugated sheets, and door-to-door transit to Hyderabad.",
+      servicesOffered: [
+        "Household Shifting in Siddipet",
+        "Direct Rajiv Rahadari Moves to Hyderabad",
+        "Office & Retail Shifting",
+        "Safe Loading & Unloading"
+],
+      movingTips: [
+        "Schedule early morning departures for fast highway travel on Rajiv Rahadari"
+],
+      roadConnectivity: "Direct 4-lane connectivity via Rajiv Rahadari (SH1) to Hyderabad (approx. 100 km) and Karimnagar.",
+    },
+    faqs: [
+      {
+        question: "How long does a home move from Siddipet to Hyderabad take?",
+        answer: "Door-to-door relocation between Siddipet and Hyderabad typically takes 3 to 5 hours.",
+      },
+    ],
+  },
+  {
+    id: "medak",
+    slug: "medak",
+    name: "Medak",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Medak | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Medak, Telangana. Affordable home shifting, church town transfers, and Hyderabad corridor moving.",
+    heroHeadline: "Packers and Movers in Medak, Telangana",
+    summary: "Medak is a historical and administrative center in Telangana. Shabari Packers and Movers provides dependable residential moving and careful packing for local families and professionals.",
+    localDetails: {
+      description: "Complete relocation services covering Medak town, Ramayampet, and surrounding rural centers.",
+      servicesOffered: [
+        "Residential Relocation",
+        "Local Furniture Shifting",
+        "Doorstep Delivery"
+],
+      movingTips: [
+        "Inform our team about narrow town street access in advance"
+],
+      roadConnectivity: "Connected to Hyderabad via NH765D and state highway routes.",
+    },
+    faqs: [
+      {
+        question: "Do you offer packing services in Medak town?",
+        answer: "Yes, our team brings multi-layer packing materials directly to your home in Medak.",
+      },
+    ],
+  },
+  {
+    id: "mancherial",
+    slug: "mancherial",
+    name: "Mancherial",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Mancherial | Shabari Packers and Movers",
+    metaDescription: "Professional packers and movers in Mancherial, Telangana. Coal belt residential shifting, Godavari valley relocations & Hyderabad transit.",
+    heroHeadline: "Packers and Movers in Mancherial, Telangana",
+    summary: "Mancherial is a major commercial center along the Godavari river and industrial belt. Shabari Packers and Movers offers secure household shifting and corporate relocations.",
+    localDetails: {
+      description: "Serving Mancherial, Bellampalli, Mandamarri, and surrounding industrial townships.",
+      servicesOffered: [
+        "Industrial Employee Moving",
+        "Household Shifting",
+        "Direct Long Distance Transport"
+],
+      movingTips: [
+        "Wrap electronic equipment securely against industrial dust"
+],
+      roadConnectivity: "Connected via SH1 (Rajiv Rahadari) and NH363 toward Karimnagar, Warangal, and Hyderabad.",
+    },
+    faqs: [
+      {
+        question: "Can you move household items from Mancherial to Hyderabad?",
+        answer: "Yes, we provide direct truck transit from Mancherial to Hyderabad with delivery within 24 hours.",
+      },
+    ],
+  },
+  {
+    id: "ramagundam",
+    slug: "ramagundam",
+    name: "Ramagundam",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Ramagundam & Peddapalli | Shabari Packers",
+    metaDescription: "Reliable packers and movers in Ramagundam and Peddapalli, Telangana. NTPC, RFCL, and coal city employee household relocation.",
+    heroHeadline: "Packers and Movers in Ramagundam & Peddapalli, Telangana",
+    summary: "Ramagundam is northern Telangana’s energy capital, home to NTPC, RFCL, and large industrial residential colonies. Shabari Packers and Movers provides specialized employee shifting.",
+    localDetails: {
+      description: "Serving NTPC township, Godavarikhani, and Peddapalli with heavy-duty packing and interstate transit.",
+      servicesOffered: [
+        "PSU & Thermal Plant Employee Moves",
+        "Household Relocation",
+        "Vehicle Transportation"
+],
+      movingTips: [
+        "Colony gate pass clearance should be arranged a day ahead"
+],
+      roadConnectivity: "High-speed transit via Rajiv Rahadari toward Karimnagar and Hyderabad.",
+    },
+    faqs: [
+      {
+        question: "Do you handle relocations from NTPC Ramagundam township?",
+        answer: "Yes, our crew is experienced with township protocols and gate access in Ramagundam.",
+      },
+    ],
+  },
+  {
+    id: "adilabad",
+    slug: "adilabad",
+    name: "Adilabad",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Adilabad | Shabari Packers and Movers",
+    metaDescription: "Quality packers and movers in Adilabad, Telangana. Northern gateway home relocation, cotton belt moving & interstate connections.",
+    heroHeadline: "Packers and Movers in Adilabad, Telangana",
+    summary: "Adilabad is Telangana’s northernmost district capital on the Maharashtra border. Shabari Packers and Movers offers long-distance domestic relocation with complete cargo safety.",
+    localDetails: {
+      description: "Serving Adilabad district with verified staff and weather-proof trucks along the NH44 highway.",
+      servicesOffered: [
+        "Long-Distance Relocation",
+        "Household Shifting",
+        "Two-Wheeler Transport"
+],
+      movingTips: [
+        "Allow extra travel buffer for northern Telangana transit routes"
+],
+      roadConnectivity: "Situated directly on NH44 connecting to Hyderabad, Nagpur, and northern India.",
+    },
+    faqs: [
+      {
+        question: "Do you provide direct shifting from Adilabad to Hyderabad?",
+        answer: "Yes, direct transport along NH44 takes approximately 6 to 8 hours.",
+      },
+    ],
+  },
+  {
+    id: "jagtial",
+    slug: "jagtial",
+    name: "Jagtial",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Jagtial | Shabari Packers and Movers",
+    metaDescription: "Expert packers and movers in Jagtial, Telangana. Safe household moving, NRI family relocation, and Karimnagar highway links.",
+    heroHeadline: "Packers and Movers in Jagtial, Telangana",
+    summary: "Jagtial is a thriving agricultural and commercial district in northern Telangana. Shabari Packers and Movers delivers dependable home shifting.",
+    localDetails: {
+      description: "Serving Jagtial, Korutla, and Metpalli with door-to-door packing and loading.",
+      servicesOffered: [
+        "Home Shifting",
+        "Furniture Packing",
+        "Loading & Unloading"
+],
+      movingTips: [
+        "Ensure clear parking space in busy market-adjacent streets"
+],
+      roadConnectivity: "Connected via NH563 to Karimnagar and Nizamabad.",
+    },
+    faqs: [
+      {
+        question: "Can you shift our home from Jagtial to Hyderabad?",
+        answer: "Yes, we provide direct door-to-door transit from Jagtial to Hyderabad.",
+      },
+    ],
+  },
+  {
+    id: "kamareddy",
+    slug: "kamareddy",
+    name: "Kamareddy",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Kamareddy | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Kamareddy, Telangana. NH44 highway home shifting, quick moves to Hyderabad and Nizamabad.",
+    heroHeadline: "Packers and Movers in Kamareddy, Telangana",
+    summary: "Kamareddy is a key highway junction on NH44 between Hyderabad and Nizamabad. Shabari Packers and Movers ensures fast, secure domestic shifting.",
+    localDetails: {
+      description: "Serving Kamareddy and surrounding taluks with organized packing and prompt dispatch.",
+      servicesOffered: [
+        "Highway Corridor Moving",
+        "Household Relocation",
+        "Local Furniture Shifting"
+],
+      movingTips: [
+        "Early morning loading enables arrival in Hyderabad by noon"
+],
+      roadConnectivity: "Positioned directly on NH44 (approx. 115 km to Hyderabad).",
+    },
+    faqs: [
+      {
+        question: "How fast is transit between Kamareddy and Hyderabad?",
+        answer: "Door-to-door transit on NH44 typically takes 3 to 4 hours.",
+      },
+    ],
+  },
+  {
+    id: "nirmal",
+    slug: "nirmal",
+    name: "Nirmal",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Nirmal | Shabari Packers and Movers",
+    metaDescription: "Safe packers and movers in Nirmal, Telangana. Handicrafts, delicate woodwork, and household shifting on NH44.",
+    heroHeadline: "Packers and Movers in Nirmal, Telangana",
+    summary: "Famous for traditional woodwork and art, Nirmal requires delicate, tailored packing. Shabari Packers and Movers provides protective crating and safe transit.",
+    localDetails: {
+      description: "Serving Nirmal, Khanapur, and Bhainsa with specialized fragile wrapping and dedicated transport.",
+      servicesOffered: [
+        "Handicraft & Woodwork Crating",
+        "Household Moving",
+        "Long-Distance Transit"
+],
+      movingTips: [
+        "Request bubble-foam encapsulation for heirloom wooden furniture"
+],
+      roadConnectivity: "Direct access to NH44 connecting south to Nizamabad/Hyderabad and north to Adilabad.",
+    },
+    faqs: [
+      {
+        question: "Do you crate delicate wooden artifacts in Nirmal?",
+        answer: "Yes, our team brings specialized foam and corrugated boards for wooden items.",
+      },
+    ],
+  },
+  {
+    id: "vikarabad",
+    slug: "vikarabad",
+    name: "Vikarabad",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Vikarabad | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Vikarabad, Telangana. Semi-urban home shifting, weekend moving, and Greater Hyderabad transit.",
+    heroHeadline: "Packers and Movers in Vikarabad, Telangana",
+    summary: "Vikarabad sits just west of Greater Hyderabad amidst scenic hills and growing residential townships. Shabari Packers and Movers handles quick relocations.",
+    localDetails: {
+      description: "Serving Vikarabad, Tandur, and Chevella with same-day shifting to Hyderabad.",
+      servicesOffered: [
+        "Residential Shifting",
+        "Semi-Urban Relocation",
+        "Tandur Stone & Furniture Care"
+],
+      movingTips: [
+        "Clear narrow driveway approaches before the moving vehicle arrives"
+],
+      roadConnectivity: "Direct 2-hour drive into Hyderabad via Chevella and Appa Junction.",
+    },
+    faqs: [
+      {
+        question: "Do you offer same-day shifting between Vikarabad and Hyderabad?",
+        answer: "Yes, same-day moving is standard between Vikarabad and Greater Hyderabad.",
+      },
+    ],
+  },
+  {
+    id: "wanaparthy",
+    slug: "wanaparthy",
+    name: "Wanaparthy",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Wanaparthy | Shabari Packers and Movers",
+    metaDescription: "Quality packers and movers in Wanaparthy, southern Telangana. Careful household moving and NH44 highway transit.",
+    heroHeadline: "Packers and Movers in Wanaparthy, Telangana",
+    summary: "Wanaparthy is an educational and administrative center in southern Telangana. Shabari Packers and Movers provides disciplined home moving.",
+    localDetails: {
+      description: "Serving Wanaparthy, Kothakota, and surrounding taluks with dependable packing and transport.",
+      servicesOffered: [
+        "Home Shifting",
+        "Appliance Packing",
+        "Loading & Unloading"
+],
+      movingTips: [
+        "Pack kitchenware in sturdy multi-ply cartons"
+],
+      roadConnectivity: "Quick access to NH44 via Kothakota bypass.",
+    },
+    faqs: [
+      {
+        question: "Can you move our home from Wanaparthy to Hyderabad?",
+        answer: "Yes, door-to-door transit takes approximately 3 to 4 hours via NH44.",
+      },
+    ],
+  },
+  {
+    id: "gadwal",
+    slug: "gadwal",
+    name: "Gadwal",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Gadwal | Shabari Packers and Movers",
+    metaDescription: "Professional packers and movers in Gadwal (Jogulamba Gadwal), Telangana. Household shifting bordering Kurnool and Raichur.",
+    heroHeadline: "Packers and Movers in Gadwal, Telangana",
+    summary: "Gadwal is located near the confluence of Krishna and Tungabhadra rivers, bordering Andhra Pradesh and Karnataka. Shabari Packers and Movers provides inter-state and local relocation.",
+    localDetails: {
+      description: "Serving Jogulamba Gadwal district with reliable domestic shifting to Kurnool, Raichur, and Hyderabad.",
+      servicesOffered: [
+        "Tri-State Border Moving",
+        "Household Shifting",
+        "Silk Weaving Machinery & Home Care"
+],
+      movingTips: [
+        "Coordinate interstate transit documents with our supervisor"
+],
+      roadConnectivity: "Connected via NH44 toward Kurnool and Hyderabad, and SH20 toward Raichur.",
+    },
+    faqs: [
+      {
+        question: "Do you handle moves from Gadwal to Kurnool or Raichur?",
+        answer: "Yes, we frequently operate across the Telangana-AP-Karnataka border corridor.",
+      },
+    ],
+  },
+  {
+    id: "nagarkurnool",
+    slug: "nagarkurnool",
+    name: "Nagarkurnool",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Nagarkurnool | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Nagarkurnool, Telangana. Safe household relocation, rural-to-urban moving, and Hyderabad connectivity.",
+    heroHeadline: "Packers and Movers in Nagarkurnool, Telangana",
+    summary: "Nagarkurnool is a southern agricultural district center. Shabari Packers and Movers ensures trustworthy packing and prompt transit.",
+    localDetails: {
+      description: "Serving Nagarkurnool, Achampet, and Kalwakurthy with verified moving teams.",
+      servicesOffered: [
+        "Household Relocation",
+        "Local Shifting",
+        "Packing Supplies"
+],
+      movingTips: [
+        "Label fragile cartons clearly for easy placement"
+],
+      roadConnectivity: "Connected via Srisailam Highway and NH44 feeder routes to Hyderabad.",
+    },
+    faqs: [
+      {
+        question: "Can you shift our home from Nagarkurnool to Hyderabad?",
+        answer: "Yes, we provide direct door-to-door moving within 3 to 4 hours.",
+      },
+    ],
+  },
+  {
+    id: "yadadri-bhuvanagiri",
+    slug: "yadadri-bhuvanagiri",
+    name: "Yadadri Bhuvanagiri",
+    stateSlug: "telangana",
+    stateName: "Telangana",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Yadadri Bhuvanagiri | Shabari Packers",
+    metaDescription: "Expert packers and movers in Yadadri Bhuvanagiri (Bhongir), Telangana. Fast home shifting along the Warangal-Hyderabad corridor.",
+    heroHeadline: "Packers and Movers in Yadadri Bhuvanagiri, Telangana",
+    summary: "Yadadri Bhuvanagiri is an expanding industrial and spiritual hub on the eastern fringe of Greater Hyderabad. Shabari Packers and Movers delivers rapid shifting.",
+    localDetails: {
+      description: "Serving Bhongir, Yadagirigutta, Alair, and Ghatkesar corridor with same-day moving.",
+      servicesOffered: [
+        "Corridor Shifting",
+        "Household Moving",
+        "Temple Town Resident Relocation"
+],
+      movingTips: [
+        "Take advantage of the 4-lane NH163 highway for quick morning moves"
+],
+      roadConnectivity: "Direct 45-minute drive into Hyderabad along NH163.",
+    },
+    faqs: [
+      {
+        question: "How fast can you shift goods between Bhongir and Hyderabad?",
+        answer: "Shifting between Bhongir and Hyderabad is completed within 2 to 3 hours.",
+      },
+    ],
+  },
+
   // ANDHRA PRADESH CITIES
   {
     id: 'vijayawada',
@@ -1114,6 +1571,385 @@ export const citiesData: CityLocation[] = [
     ],
   },
 
+  {
+    id: "anantapur",
+    slug: "anantapur",
+    name: "Anantapur",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Anantapur | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Anantapur, Andhra Pradesh. Safe household shifting along the NH44 highway connecting to Hyderabad & Bengaluru.",
+    heroHeadline: "Packers and Movers in Anantapur, Andhra Pradesh",
+    summary: "Anantapur is the largest district in Rayalaseema, located on the bustling NH44 transit highway between Hyderabad and Bengaluru. Shabari Packers and Movers offers seamless domestic shifting, faculty moves for JNTU and SK University, and secure cargo transit.",
+    localDetails: {
+      description: "Serving Anantapur town, Dharmavaram, and Tadipatri with dedicated truck carriers and protective bubble-corrugated packaging.",
+      servicesOffered: [
+        "Interstate Moves on NH44 (Hyderabad - Bengaluru)",
+        "Household Shifting in Anantapur",
+        "University Faculty & Student Relocation",
+        "Silk & Textile Merchant Cargo Packing"
+],
+      movingTips: [
+        "Protect furniture with heat-reflective wraps during dry summer months",
+        "Take advantage of direct NH44 transit for fast delivery to Bengaluru"
+],
+      roadConnectivity: "Major junction on NH44, approx. 360 km from Hyderabad and 210 km from Bengaluru.",
+    },
+    faqs: [
+      {
+        question: "How long does moving between Anantapur and Bengaluru take?",
+        answer: "Door-to-door transit between Anantapur and Bengaluru via NH44 takes approximately 4 to 5 hours.",
+      },
+      {
+        question: "Do you move household goods from Anantapur to Hyderabad?",
+        answer: "Yes, Anantapur to Hyderabad is a direct highway route completed within 7 to 8 hours.",
+      },
+    ],
+  },
+  {
+    id: "kadapa",
+    slug: "kadapa",
+    name: "Kadapa",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Kadapa | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Kadapa (YSR District), Andhra Pradesh. Quality household moving, stone tile packaging, and highway transport.",
+    heroHeadline: "Packers and Movers in Kadapa, Andhra Pradesh",
+    summary: "Kadapa is the central commercial and administrative nexus of Rayalaseema. Shabari Packers and Movers provides dependable residential moving, government employee transfers, and specialized packing.",
+    localDetails: {
+      description: "Covering Kadapa city, RIMS hospital area, and industrial clusters with organized packing crews.",
+      servicesOffered: [
+        "Residential Relocation",
+        "Government Employee Transfers",
+        "Appliance & Furniture Moving"
+],
+      movingTips: [
+        "Check moving schedule during afternoon heat in summer months"
+],
+      roadConnectivity: "Connected via NH40 and state expressways to Tirupati, Kurnool, and Hyderabad.",
+    },
+    faqs: [
+      {
+        question: "Do you provide home shifting from Kadapa to Hyderabad?",
+        answer: "Yes, we manage direct moves from Kadapa to Hyderabad with delivery within 24 hours.",
+      },
+    ],
+  },
+  {
+    id: "ongole",
+    slug: "ongole",
+    name: "Ongole",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Ongole | Shabari Packers and Movers",
+    metaDescription: "Professional packers and movers in Ongole, Prakasam district. Safe home shifting on the NH16 coastal highway connecting Chennai and Vijayawada.",
+    heroHeadline: "Packers and Movers in Ongole, Andhra Pradesh",
+    summary: "Ongole is a major commercial center in coastal Andhra Pradesh, situated on the golden quadrilateral NH16. Shabari Packers and Movers offers punctual residential and commercial moving.",
+    localDetails: {
+      description: "Serving Ongole town, granite corridor, and residential extensions with weather-proof covered trucks.",
+      servicesOffered: [
+        "Highway Coastal Moving",
+        "Household Shifting",
+        "Granite & Furniture Handling"
+],
+      movingTips: [
+        "Ensure moisture-resistant wrapping for coastal highway transit"
+],
+      roadConnectivity: "Direct high-speed access along National Highway 16.",
+    },
+    faqs: [
+      {
+        question: "How fast can you shift goods between Ongole and Hyderabad?",
+        answer: "Transit between Ongole and Hyderabad typically takes 8 to 10 hours via Miryalaguda or Vijayawada.",
+      },
+    ],
+  },
+  {
+    id: "chittoor",
+    slug: "chittoor",
+    name: "Chittoor",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Chittoor | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Chittoor, Andhra Pradesh. Tri-state junction moving connecting AP, Tamil Nadu, and Karnataka.",
+    heroHeadline: "Packers and Movers in Chittoor, Andhra Pradesh",
+    summary: "Chittoor occupies a strategic tri-state gateway bordering Karnataka and Tamil Nadu. Shabari Packers and Movers provides interstate relocation with complete transit safety.",
+    localDetails: {
+      description: "Serving Chittoor, Palamaner, and industrial estates with door-to-door shifting services.",
+      servicesOffered: [
+        "Interstate Shifting (AP-KA-TN)",
+        "Home Relocation",
+        "Commercial Packaging"
+],
+      movingTips: [
+        "Keep toll and state tax paperwork coordinated through our team"
+],
+      roadConnectivity: "Situated at the junction of NH69 and NH40 connecting to Bengaluru (180 km) and Chennai (160 km).",
+    },
+    faqs: [
+      {
+        question: "Do you move household goods from Chittoor to Bengaluru?",
+        answer: "Yes, Chittoor to Bengaluru is a frequent route completed within 4 to 5 hours.",
+      },
+    ],
+  },
+  {
+    id: "srikakulam",
+    slug: "srikakulam",
+    name: "Srikakulam",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Srikakulam | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Srikakulam, Andhra Pradesh. Safe household moving along the north coastal NH16 corridor.",
+    heroHeadline: "Packers and Movers in Srikakulam, Andhra Pradesh",
+    summary: "Srikakulam is Andhra Pradesh’s northernmost coastal district headquarters. Shabari Packers and Movers delivers high-quality long-distance domestic relocation.",
+    localDetails: {
+      description: "Serving Srikakulam town, Palasa, and Amadalavalasa with multi-layer box packing and freight transit.",
+      servicesOffered: [
+        "Long-Distance Coastal Relocation",
+        "Household Moving",
+        "Loading & Unloading"
+],
+      movingTips: [
+        "Allow sufficient transit time for north coastal destinations"
+],
+      roadConnectivity: "Located directly on the 6-lane NH16 corridor north of Visakhapatnam.",
+    },
+    faqs: [
+      {
+        question: "Can you shift our home from Srikakulam to Hyderabad?",
+        answer: "Yes, we provide direct container truck moving from Srikakulam to Hyderabad.",
+      },
+    ],
+  },
+  {
+    id: "vizianagaram",
+    slug: "vizianagaram",
+    name: "Vizianagaram",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Vizianagaram | Shabari Packers and Movers",
+    metaDescription: "Expert packers and movers in Vizianagaram, Andhra Pradesh. Historic city household shifting and Visakhapatnam corridor transit.",
+    heroHeadline: "Packers and Movers in Vizianagaram, Andhra Pradesh",
+    summary: "Vizianagaram is a major cultural and railway junction city adjacent to Visakhapatnam. Shabari Packers and Movers provides disciplined home and office moving.",
+    localDetails: {
+      description: "Serving Vizianagaram town, cantonment, and industrial estates with safe furniture wrapping.",
+      servicesOffered: [
+        "Household Relocation",
+        "Railway Employee Moves",
+        "Direct Transit to Hyderabad"
+],
+      movingTips: [
+        "Confirm access roads for large transport vehicles ahead of move day"
+],
+      roadConnectivity: "Connected via NH26 and NH16 to Visakhapatnam (approx. 55 km).",
+    },
+    faqs: [
+      {
+        question: "Do you offer moving services between Vizianagaram and Visakhapatnam?",
+        answer: "Yes, we provide same-day local shifting between Vizianagaram and Visakhapatnam.",
+      },
+    ],
+  },
+  {
+    id: "machilipatnam",
+    slug: "machilipatnam",
+    name: "Machilipatnam",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Machilipatnam | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Machilipatnam, Krishna district. Safe residential shifting, kalamkari art crating & Vijayawada corridor moving.",
+    heroHeadline: "Packers and Movers in Machilipatnam, Andhra Pradesh",
+    summary: "Machilipatnam is the historic port and administrative capital of Krishna district. Shabari Packers and Movers delivers moisture-proof packaging and safe residential moving.",
+    localDetails: {
+      description: "Serving Machilipatnam and coastal Krishna villages with reliable transport and loading manpower.",
+      servicesOffered: [
+        "Coastal Home Moving",
+        "Handicrafts Crating",
+        "Direct Route to Vijayawada"
+],
+      movingTips: [
+        "Use desiccants and moisture-barrier wrap for coastal air protection"
+],
+      roadConnectivity: "Direct 4-lane expressway (NH65 extension) into Vijayawada (approx. 65 km).",
+    },
+    faqs: [
+      {
+        question: "How fast can you move goods from Machilipatnam to Vijayawada?",
+        answer: "Transit between Machilipatnam and Vijayawada takes about 1.5 to 2 hours.",
+      },
+    ],
+  },
+  {
+    id: "bhimavaram",
+    slug: "bhimavaram",
+    name: "Bhimavaram",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Bhimavaram | Shabari Packers and Movers",
+    metaDescription: "Quality packers and movers in Bhimavaram, West Godavari. Aqua hub household moving, commercial shifting & Hyderabad transit.",
+    heroHeadline: "Packers and Movers in Bhimavaram, Andhra Pradesh",
+    summary: "Bhimavaram is the vibrant economic and educational powerhouse of West Godavari. Shabari Packers and Movers offers secure household shifting and student transfers.",
+    localDetails: {
+      description: "Serving Bhimavaram town, engineering colleges, and residential areas with trained packing staff.",
+      servicesOffered: [
+        "Residential Moving",
+        "Student & College Staff Shifting",
+        "Doorstep Delivery"
+],
+      movingTips: [
+        "Pack fragile glass items with double corrugated cushion wrap"
+],
+      roadConnectivity: "Connected via state highways and NH165 to Vijayawada and Tadepalligudem.",
+    },
+    faqs: [
+      {
+        question: "Can you shift our home from Bhimavaram to Hyderabad?",
+        answer: "Yes, we manage direct relocations from Bhimavaram to Hyderabad within 24 hours.",
+      },
+    ],
+  },
+  {
+    id: "nandyal",
+    slug: "nandyal",
+    name: "Nandyal",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Nandyal | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Nandyal, Andhra Pradesh. Safe household moving, industrial shifting, and Kurnool corridor transport.",
+    heroHeadline: "Packers and Movers in Nandyal, Andhra Pradesh",
+    summary: "Nandyal is an essential industrial and trading hub in central Rayalaseema. Shabari Packers and Movers provides dependable residential moving and vehicle transit.",
+    localDetails: {
+      description: "Serving Nandyal, Allagadda, and surrounding agricultural belts with disciplined packing.",
+      servicesOffered: [
+        "Home Relocation",
+        "Commercial Goods Shifting",
+        "Loading & Unloading"
+],
+      movingTips: [
+        "Check moving vehicle dimensions for inner bazaar streets"
+],
+      roadConnectivity: "Positioned on NH40 connecting to Kurnool (70 km) and Kadapa (120 km).",
+    },
+    faqs: [
+      {
+        question: "Do you provide direct shifting from Nandyal to Hyderabad?",
+        answer: "Yes, direct transit via NH40/NH44 to Hyderabad takes approximately 6 to 7 hours.",
+      },
+    ],
+  },
+  {
+    id: "hindupur",
+    slug: "hindupur",
+    name: "Hindupur",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Hindupur | Shabari Packers and Movers",
+    metaDescription: "Expert packers and movers in Hindupur, Sri Sathya Sai district. Border industrial moving and Bengaluru corridor shifting.",
+    heroHeadline: "Packers and Movers in Hindupur, Andhra Pradesh",
+    summary: "Hindupur is a major trading hub just 100 km north of Bengaluru on the Karnataka-AP border. Shabari Packers and Movers provides swift cross-border domestic shifting.",
+    localDetails: {
+      description: "Serving Hindupur, Lepakshi, and surrounding industrial belts with direct highway dispatch.",
+      servicesOffered: [
+        "Cross-Border AP-Karnataka Moving",
+        "Household Shifting",
+        "Industrial Staff Relocation"
+],
+      movingTips: [
+        "Bengaluru moves can be completed in a single afternoon"
+],
+      roadConnectivity: "Located on SH9 connecting directly to Doddaballapur and Bengaluru (approx. 100 km).",
+    },
+    faqs: [
+      {
+        question: "How fast can you shift goods between Hindupur and Bengaluru?",
+        answer: "Door-to-door moving between Hindupur and Bengaluru takes just 3 to 4 hours.",
+      },
+    ],
+  },
+  {
+    id: "proddatur",
+    slug: "proddatur",
+    name: "Proddatur",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Proddatur | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Proddatur, YSR Kadapa district. Gold and cotton trading city home relocation & Hyderabad transit.",
+    heroHeadline: "Packers and Movers in Proddatur, Andhra Pradesh",
+    summary: "Proddatur is the second-largest commercial city in Kadapa district, known for vibrant trading. Shabari Packers and Movers delivers careful home shifting.",
+    localDetails: {
+      description: "Serving Proddatur town and residential colonies with multi-layer packing materials.",
+      servicesOffered: [
+        "Household Moving",
+        "Merchant Family Relocation",
+        "Safe Transit to Hyderabad"
+],
+      movingTips: [
+        "Label all cartons clearly for organized room placement"
+],
+      roadConnectivity: "Connected via state highways to NH40 and NH67.",
+    },
+    faqs: [
+      {
+        question: "Can you move household items from Proddatur to Hyderabad?",
+        answer: "Yes, direct transit to Hyderabad is completed within 8 to 10 hours.",
+      },
+    ],
+  },
+  {
+    id: "tenali",
+    slug: "tenali",
+    name: "Tenali",
+    stateSlug: "andhra-pradesh",
+    stateName: "Andhra Pradesh",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Tenali | Shabari Packers and Movers",
+    metaDescription: "Professional packers and movers in Tenali, Guntur district. Andhra Paris residential relocation and Vijayawada/Guntur moving.",
+    heroHeadline: "Packers and Movers in Tenali, Andhra Pradesh",
+    summary: "Tenali is a historic cultural and educational hub in the Krishna delta. Shabari Packers and Movers offers reliable residential moving with specialized care.",
+    localDetails: {
+      description: "Serving Tenali town, Morrispet, and rural mandals with prompt packing and moving services.",
+      servicesOffered: [
+        "Local Shifting to Guntur & Vijayawada",
+        "Household Relocation",
+        "Packing & Unpacking"
+],
+      movingTips: [
+        "Early morning shifting avoids canal road traffic congestion"
+],
+      roadConnectivity: "Located 30 km from Guntur and 35 km from Vijayawada with multi-lane highway access.",
+    },
+    faqs: [
+      {
+        question: "Do you offer shifting from Tenali to Hyderabad?",
+        answer: "Yes, we provide direct door-to-door home shifting from Tenali to Hyderabad.",
+      },
+    ],
+  },
+
   // KARNATAKA CITIES
   {
     id: 'bengaluru',
@@ -1351,6 +2187,415 @@ export const citiesData: CityLocation[] = [
       {
         question: 'Do you handle student and faculty moves in Manipal?',
         answer: 'Yes, we regularly handle relocations for students, doctors, and faculty at Manipal institutions.',
+      },
+    ],
+  },
+  {
+    id: "ballari",
+    slug: "ballari",
+    name: "Ballari",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Ballari (Bellary) | Shabari Packers",
+    metaDescription: "Trusted packers and movers in Ballari, Karnataka. Steel city household relocation, industrial moving, and direct routes to Hyderabad & Bengaluru.",
+    heroHeadline: "Packers and Movers in Ballari (Bellary), Karnataka",
+    summary: "Ballari is a premier industrial and mining metropolis in eastern Karnataka, closely connected to Telangana and Andhra Pradesh. Shabari Packers and Movers delivers heavy-duty household shifting, Jindal/JSW employee relocation, and direct interstate moving.",
+    localDetails: {
+      description: "Serving Ballari city, Toranagallu (JSW township), and Cantonment with sealed container trucks and expert loading manpower.",
+      servicesOffered: [
+        "Steel Plant & Corporate Employee Moves",
+        "Direct Interstate Routes: Ballari to Hyderabad & Bengaluru",
+        "Household Shifting in Ballari & Toranagallu",
+        "Vehicle & Two-Wheeler Transportation"
+],
+      movingTips: [
+        "Arrange gate pass permissions for Toranagallu residential colonies 24 hours prior",
+        "Protect furniture with dust-tight stretch wrapping"
+],
+      roadConnectivity: "Connected via NH67 toward Hosapete and Hubballi, and SH190/NH44 toward Hyderabad (approx. 360 km) and Bengaluru (310 km).",
+    },
+    faqs: [
+      {
+        question: "Do you handle shifting for employees in Toranagallu (JSW Township)?",
+        answer: "Yes, we regularly handle relocations for JSW and industrial personnel in Toranagallu and Ballari.",
+      },
+      {
+        question: "How long does moving from Ballari to Bengaluru take?",
+        answer: "Direct door-to-door transit between Ballari and Bengaluru typically takes 6 to 8 hours.",
+      },
+    ],
+  },
+  {
+    id: "shivamogga",
+    slug: "shivamogga",
+    name: "Shivamogga",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Shivamogga (Shimoga) | Shabari Packers",
+    metaDescription: "Reliable packers and movers in Shivamogga, Karnataka. Gateway to Malnad home shifting, waterproof packing, and Bengaluru corridor transport.",
+    heroHeadline: "Packers and Movers in Shivamogga (Shimoga), Karnataka",
+    summary: "Shivamogga is the gateway to Karnataka’s lush Malnad region and a vibrant educational and agricultural center. Shabari Packers and Movers provides moisture-proof packing and careful transit.",
+    localDetails: {
+      description: "Serving Shimoga city, Bhadravati industrial area, and residential extensions with weather-proof trucks.",
+      servicesOffered: [
+        "Malnad Weather Protective Moving",
+        "Household Shifting",
+        "Industrial Shifting in Bhadravati"
+],
+      movingTips: [
+        "Opt for multi-layer waterproof wrapping during monsoon months"
+],
+      roadConnectivity: "Connected via NH69 (NH206) directly to Tumakuru and Bengaluru (approx. 280 km).",
+    },
+    faqs: [
+      {
+        question: "Do you provide direct shifting from Shivamogga to Bengaluru?",
+        answer: "Yes, transit between Shivamogga and Bengaluru takes approximately 5 to 7 hours.",
+      },
+    ],
+  },
+  {
+    id: "bidar",
+    slug: "bidar",
+    name: "Bidar",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Bidar | Shabari Packers and Movers",
+    metaDescription: "Quality packers and movers in Bidar, northern Karnataka. Border city household shifting, Air Force base relocation & Hyderabad link.",
+    heroHeadline: "Packers and Movers in Bidar, Karnataka",
+    summary: "Bidar is Karnataka’s northernmost crown, located just 130 km from Hyderabad. Shabari Packers and Movers provides convenient same-day moving between Bidar and Telangana.",
+    localDetails: {
+      description: "Serving Bidar city, Air Force Station, and surrounding taluks with prompt packing and dispatch.",
+      servicesOffered: [
+        "Defense & Air Force Employee Transfers",
+        "Cross-Border Shifting to Hyderabad",
+        "Bidriware & Antique Crating"
+],
+      movingTips: [
+        "Same-day moves to Hyderabad are easily scheduled with early morning departure"
+],
+      roadConnectivity: "Direct 4-lane highway via NH65 / Zahirabad directly into Hyderabad (approx. 130 km).",
+    },
+    faqs: [
+      {
+        question: "How fast can you shift goods between Bidar and Hyderabad?",
+        answer: "Transit between Bidar and Hyderabad is completed within 3 to 4 hours.",
+      },
+    ],
+  },
+  {
+    id: "raichur",
+    slug: "raichur",
+    name: "Raichur",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: true,
+    metaTitle: "Packers and Movers in Raichur | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Raichur, Karnataka. Doab region household moving, RTPS employee shifting, and Hyderabad links.",
+    heroHeadline: "Packers and Movers in Raichur, Karnataka",
+    summary: "Raichur is nestled between the Krishna and Tungabhadra rivers, bordering Telangana and Andhra Pradesh. Shabari Packers and Movers provides reliable inter-state and local relocation.",
+    localDetails: {
+      description: "Serving Raichur city, RTPS Shaktinagar, and agricultural trading hubs with sealed freight trucks.",
+      servicesOffered: [
+        "Thermal Power Plant Employee Moves",
+        "Interstate Shifting to Hyderabad",
+        "Household Moving"
+],
+      movingTips: [
+        "Coordinate gate permits for RTPS Shaktinagar in advance"
+],
+      roadConnectivity: "Connected via state highways to Mahabubnagar and NH44 toward Hyderabad (approx. 210 km).",
+    },
+    faqs: [
+      {
+        question: "Do you manage moves from Raichur to Hyderabad?",
+        answer: "Yes, Raichur to Hyderabad is a direct route completed within 4 to 5 hours.",
+      },
+    ],
+  },
+  {
+    id: "vijayapura",
+    slug: "vijayapura",
+    name: "Vijayapura",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Vijayapura (Bijapur) | Shabari Packers",
+    metaDescription: "Professional packers and movers in Vijayapura, Karnataka. Heritage city home relocation, safe furniture handling & interstate transit.",
+    heroHeadline: "Packers and Movers in Vijayapura (Bijapur), Karnataka",
+    summary: "Vijayapura is a historic metropolis in northern Karnataka. Shabari Packers and Movers offers secure household shifting and interstate transit.",
+    localDetails: {
+      description: "Serving Vijayapura city, engineering colleges, and residential extensions with complete moving care.",
+      servicesOffered: [
+        "Heritage City Home Moving",
+        "Long-Distance Transit",
+        "Safe Loading & Unloading"
+],
+      movingTips: [
+        "Wrap heritage furniture in multi-ply shock absorbent foam"
+],
+      roadConnectivity: "Connected via NH50 and NH52 toward Solapur, Kalaburagi, and Bengaluru.",
+    },
+    faqs: [
+      {
+        question: "Can you shift our home from Vijayapura to Bengaluru or Hyderabad?",
+        answer: "Yes, we provide dedicated long-distance truck moving to both Bengaluru and Hyderabad.",
+      },
+    ],
+  },
+  {
+    id: "hassan",
+    slug: "hassan",
+    name: "Hassan",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Hassan | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Hassan, Karnataka. ISRO Master Control Facility staff relocation & Bengaluru highway moving.",
+    heroHeadline: "Packers and Movers in Hassan, Karnataka",
+    summary: "Hassan is an important industrial and space tech hub located halfway between Bengaluru and Mangaluru. Shabari Packers and Movers offers punctual moving.",
+    localDetails: {
+      description: "Serving Hassan city, ISRO MCF residential quarters, and plantation estates with specialized packing.",
+      servicesOffered: [
+        "ISRO & Corporate Personnel Moves",
+        "Household Relocation",
+        "Coffee Estate Transit"
+],
+      movingTips: [
+        "Take advantage of the 4-lane NH75 highway for rapid transit into Bengaluru"
+],
+      roadConnectivity: "Direct 4-lane highway via NH75 into Bengaluru (approx. 180 km).",
+    },
+    faqs: [
+      {
+        question: "How fast can you move household goods from Hassan to Bengaluru?",
+        answer: "Transit between Hassan and Bengaluru takes approximately 3 to 4 hours via NH75.",
+      },
+    ],
+  },
+  {
+    id: "mandya",
+    slug: "mandya",
+    name: "Mandya",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Mandya | Shabari Packers and Movers",
+    metaDescription: "Expert packers and movers in Mandya, Karnataka. Sugar city home moving along the Bengaluru-Mysuru Expressway.",
+    heroHeadline: "Packers and Movers in Mandya, Karnataka",
+    summary: "Mandya lies along the 10-lane Bengaluru-Mysuru Expressway. Shabari Packers and Movers provides lightning-fast relocations across the southern Karnataka belt.",
+    localDetails: {
+      description: "Serving Mandya town, Maddur, and Sugar town with express vehicle transport.",
+      servicesOffered: [
+        "Expressway Shifting",
+        "Household Moving",
+        "Packing and Assembly"
+],
+      movingTips: [
+        "The expressway allows same-day morning packing and afternoon delivery in Bengaluru or Mysuru"
+],
+      roadConnectivity: "Located on the 10-lane Bengaluru-Mysuru Expressway (approx. 100 km to Bengaluru).",
+    },
+    faqs: [
+      {
+        question: "Do you offer moves between Mandya and Bengaluru via Expressway?",
+        answer: "Yes, transit between Mandya and Bengaluru takes only 1.5 to 2 hours via the Expressway.",
+      },
+    ],
+  },
+  {
+    id: "chikkamagaluru",
+    slug: "chikkamagaluru",
+    name: "Chikkamagaluru",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Chikkamagaluru | Shabari Packers and Movers",
+    metaDescription: "Safe packers and movers in Chikkamagaluru, Karnataka. Coffee land estate and residential relocation with weather-proof packing.",
+    heroHeadline: "Packers and Movers in Chikkamagaluru, Karnataka",
+    summary: "Chikkamagaluru is the coffee capital of Karnataka, situated in the Western Ghats. Shabari Packers and Movers handles residential and estate relocations with protective wrapping.",
+    localDetails: {
+      description: "Serving Chikkamagaluru town, Kadur, and estate bungalows with experienced hill-transit drivers.",
+      servicesOffered: [
+        "Estate & Plantation Relocation",
+        "Household Moving",
+        "Moisture-Barrier Packing"
+],
+      movingTips: [
+        "Hill road transit requires tight cargo strapping and anti-moisture covers"
+],
+      roadConnectivity: "Connected via NH173 to Hassan, Kadur, and onward to Bengaluru (approx. 240 km).",
+    },
+    faqs: [
+      {
+        question: "Do your drivers handle estate and hill road moves in Chikkamagaluru?",
+        answer: "Yes, our experienced drivers and compact trucks navigate hill routes safely.",
+      },
+    ],
+  },
+  {
+    id: "bagalkote",
+    slug: "bagalkote",
+    name: "Bagalkote",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Bagalkote | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Bagalkote, Karnataka. Ghataprabha river valley home relocation and Hubballi highway transport.",
+    heroHeadline: "Packers and Movers in Bagalkote, Karnataka",
+    summary: "Bagalkote is a major cultural and administrative district in northern Karnataka. Shabari Packers and Movers provides dependable domestic moving.",
+    localDetails: {
+      description: "Serving Navanagar (New Town), Jamkhandi, and Ilkal with careful packing and transport.",
+      servicesOffered: [
+        "Navanagar Township Shifting",
+        "Household Moving",
+        "Loading & Placement"
+],
+      movingTips: [
+        "Navanagar wide streets allow easy access for large moving containers"
+],
+      roadConnectivity: "Connected via NH52 and state highways to Hubballi and Belagavi.",
+    },
+    faqs: [
+      {
+        question: "Can you move household items from Bagalkote to Bengaluru?",
+        answer: "Yes, we provide direct long-distance shifting from Bagalkote to Bengaluru.",
+      },
+    ],
+  },
+  {
+    id: "kolar",
+    slug: "kolar",
+    name: "Kolar",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Kolar & KGF | Shabari Packers and Movers",
+    metaDescription: "Reliable packers and movers in Kolar and KGF, Karnataka. Gold fields home shifting on the NH75 highway corridor to Bengaluru.",
+    heroHeadline: "Packers and Movers in Kolar & KGF, Karnataka",
+    summary: "Kolar is an expanding residential and industrial district just 70 km east of Bengaluru. Shabari Packers and Movers delivers rapid, affordable household shifting.",
+    localDetails: {
+      description: "Serving Kolar town, Kolar Gold Fields (KGF), and Narasapura industrial area.",
+      servicesOffered: [
+        "Industrial Staff Shifting",
+        "Household Relocation",
+        "Same-Day Bengaluru Moves"
+],
+      movingTips: [
+        "Same-day moves to Whitefield/Bengaluru are easily coordinated via NH75"
+],
+      roadConnectivity: "Located right along National Highway 75 (approx. 70 km to Bengaluru).",
+    },
+    faqs: [
+      {
+        question: "How fast can you shift goods between Kolar and Bengaluru?",
+        answer: "Door-to-door transit between Kolar and Bengaluru takes only 1.5 to 2 hours via NH75.",
+      },
+    ],
+  },
+  {
+    id: "chitradurga",
+    slug: "chitradurga",
+    name: "Chitradurga",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Chitradurga | Shabari Packers and Movers",
+    metaDescription: "Quality packers and movers in Chitradurga, central Karnataka. Fort city home shifting at the crossroads of NH48 and NH50.",
+    heroHeadline: "Packers and Movers in Chitradurga, Karnataka",
+    summary: "Chitradurga is the central crossroads of Karnataka where NH48 (Pune-Bengaluru) and NH50 intersect. Shabari Packers and Movers delivers smooth domestic moving.",
+    localDetails: {
+      description: "Serving Chitradurga town and district taluks with dependable transport trucks.",
+      servicesOffered: [
+        "Highway Crossroads Relocation",
+        "Household Moving",
+        "Loading & Unloading"
+],
+      movingTips: [
+        "Prime highway access makes morning moves to Bengaluru fast and smooth"
+],
+      roadConnectivity: "Major highway interchange connecting NH48 directly into Bengaluru (approx. 200 km).",
+    },
+    faqs: [
+      {
+        question: "How long does moving from Chitradurga to Bengaluru take?",
+        answer: "Transit between Chitradurga and Bengaluru via NH48 takes approximately 3.5 to 4.5 hours.",
+      },
+    ],
+  },
+  {
+    id: "yadgir",
+    slug: "yadgir",
+    name: "Yadgir",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Yadgir | Shabari Packers and Movers",
+    metaDescription: "Trusted packers and movers in Yadgir, northern Karnataka. Safe household moving bordering Telangana and Hyderabad corridor.",
+    heroHeadline: "Packers and Movers in Yadgir, Karnataka",
+    summary: "Yadgir borders Telangana along the Bhima river, with direct road links into Hyderabad. Shabari Packers and Movers provides smooth cross-border shifting.",
+    localDetails: {
+      description: "Serving Yadgir town, Shahapur, and Surpur with reliable packing and transport.",
+      servicesOffered: [
+        "Cross-Border Shifting to Hyderabad",
+        "Household Moving",
+        "Rural-to-Urban Relocation"
+],
+      movingTips: [
+        "Direct routes to Hyderabad allow convenient single-day shifting"
+],
+      roadConnectivity: "Connected via state highways to Kalaburagi, Raichur, and Hyderabad (approx. 190 km).",
+    },
+    faqs: [
+      {
+        question: "Do you offer direct shifting from Yadgir to Hyderabad?",
+        answer: "Yes, Yadgir to Hyderabad is a convenient direct route completed in 4 to 5 hours.",
+      },
+    ],
+  },
+  {
+    id: "hosapete",
+    slug: "hosapete",
+    name: "Hosapete",
+    stateSlug: "karnataka",
+    stateName: "Karnataka",
+    isPublished: true,
+    isHub: false,
+    metaTitle: "Packers and Movers in Hosapete (Hampi) | Shabari Packers",
+    metaDescription: "Professional packers and movers in Hosapete and Hampi, Vijayanagara district. Tungabhadra basin residential and commercial shifting.",
+    heroHeadline: "Packers and Movers in Hosapete (Hampi), Karnataka",
+    summary: "Hosapete is the capital of Vijayanagara district, bordering the Tungabhadra dam and world-heritage Hampi. Shabari Packers and Movers provides careful domestic moving.",
+    localDetails: {
+      description: "Serving Hosapete city, TB Dam residential colony, and Ballari highway corridor.",
+      servicesOffered: [
+        "Vijayanagara District Relocation",
+        "Household Moving",
+        "Tourism & Hospitality Shifting"
+],
+      movingTips: [
+        "Coordinate parking permissions near inner town streets"
+],
+      roadConnectivity: "Connected via NH67 to Ballari (60 km) and Hubballi (140 km).",
+    },
+    faqs: [
+      {
+        question: "Can you shift household items from Hosapete to Bengaluru?",
+        answer: "Yes, direct transit via NH50/NH48 to Bengaluru takes approximately 6 to 7 hours.",
       },
     ],
   },

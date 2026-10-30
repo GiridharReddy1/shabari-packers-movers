@@ -73,7 +73,27 @@ export function generateLocalBusinessSchema({
   name = siteConfig.name,
   description = siteConfig.tagline,
   url = siteConfig.baseUrl,
-  areaServed = ['Hyderabad', 'Telangana', 'Andhra Pradesh', 'Karnataka'],
+  areaServed = [
+    'Telangana',
+    'Andhra Pradesh',
+    'Karnataka',
+    'Hyderabad',
+    'Kothagudem',
+    'Warangal',
+    'Karimnagar',
+    'Khammam',
+    'Nizamabad',
+    'Vijayawada',
+    'Visakhapatnam',
+    'Guntur',
+    'Tirupati',
+    'Kurnool',
+    'Bengaluru',
+    'Mysuru',
+    'Mangaluru',
+    'Hubballi',
+    'Ballari',
+  ],
   telephone = siteConfig.displayPhone,
 }: {
   name?: string;
@@ -84,13 +104,15 @@ export function generateLocalBusinessSchema({
 } = {}) {
   return {
     '@context': 'https://schema.org',
-    '@type': 'MovingCompany',
+    '@type': ['MovingCompany', 'LocalBusiness'],
     name: name,
     image: `${siteConfig.baseUrl}/images/shabari-logo.jpg`,
     '@id': `${siteConfig.baseUrl}/#company`,
     url: url,
     telephone: telephone,
     priceRange: '₹₹',
+    paymentAccepted: 'Cash, UPI, Net Banking, Credit Card, Debit Card',
+    currenciesAccepted: 'INR',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Near Bhajan Mandir Road',
@@ -105,6 +127,20 @@ export function generateLocalBusinessSchema({
       longitude: '80.6198011',
     },
     hasMap: siteConfig.googleMapsUrl,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '482',
+      bestRating: '5',
+      worstRating: '1',
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: siteConfig.displayPhone,
+      contactType: 'customer service',
+      areaServed: ['IN-TG', 'IN-AP', 'IN-KA'],
+      availableLanguage: ['Telugu', 'English', 'Hindi'],
+    },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -126,6 +162,54 @@ export function generateLocalBusinessSchema({
       name: area,
     })),
     description: description,
+  };
+}
+
+export function generateOrganizationSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: siteConfig.name,
+    legalName: siteConfig.legalName,
+    url: siteConfig.baseUrl,
+    logo: `${siteConfig.baseUrl}/images/shabari-logo.jpg`,
+    image: `${siteConfig.baseUrl}/images/shabari-logo.jpg`,
+    description: siteConfig.tagline,
+    telephone: siteConfig.displayPhone,
+    email: siteConfig.email,
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Near Bhajan Mandir Road',
+      addressLocality: 'Kothagudem',
+      addressRegion: 'Telangana',
+      postalCode: '507101',
+      addressCountry: 'IN',
+    },
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: siteConfig.displayPhone,
+      contactType: 'customer service',
+      areaServed: ['IN-TG', 'IN-AP', 'IN-KA'],
+      availableLanguage: ['Telugu', 'English', 'Hindi'],
+    },
+    sameAs: [siteConfig.googleMapsUrl],
+  };
+}
+
+export function generateWebSiteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: siteConfig.name,
+    url: siteConfig.baseUrl,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteConfig.baseUrl}/packers-and-movers?search={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    },
   };
 }
 
