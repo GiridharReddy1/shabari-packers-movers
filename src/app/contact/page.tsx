@@ -1,6 +1,6 @@
 import React from 'react';
 import { Metadata } from 'next';
-import { Phone, MessageSquare, Mail, MapPin, Clock, ShieldCheck } from 'lucide-react';
+import { Phone, MessageSquare, Mail, MapPin, Clock, ShieldCheck, ExternalLink, Navigation } from 'lucide-react';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import QuoteForm from '@/components/QuoteForm';
 import StructuredData from '@/components/StructuredData';
@@ -121,21 +121,54 @@ export default function ContactPage() {
               </div>
 
               {/* Office & Hours */}
-              <div className="p-5 bg-stone-50 rounded-2xl border border-[#EAE5DC] space-y-3 text-xs text-[#56616D]">
+              <div className="p-5 bg-stone-50 rounded-2xl border border-[#EAE5DC] space-y-4 text-xs text-[#56616D]">
                 <div className="flex items-start gap-2.5">
                   <MapPin className="w-4 h-4 text-[#B88E2F] shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-semibold text-[#14171C] block">Headquarters & Central Dispatch:</span>
-                    <span>{siteConfig.fullAddress}</span>
+                  <div className="flex-1">
+                    <span className="font-semibold text-[#14171C] block text-sm">Office & Dispatch Hub:</span>
+                    <a
+                      href={siteConfig.googleMapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs leading-relaxed text-stone-700 hover:text-[#0F2C59] block mt-0.5 group"
+                      title="Open office location in Google Maps"
+                    >
+                      <span className="group-hover:underline">{siteConfig.fullAddress}</span>
+                    </a>
+                    <a
+                      href={siteConfig.googleMapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 mt-2.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-[#0F2C59] bg-[#E8D7B8]/40 hover:bg-[#E8D7B8] border border-[#E8D7B8] transition-colors shadow-2xs"
+                    >
+                      <Navigation className="w-3.5 h-3.5 text-[#B88E2F]" />
+                      <span>Get Driving Directions on Google Maps</span>
+                      <ExternalLink className="w-3 h-3 ml-0.5 opacity-70" />
+                    </a>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-2.5">
+                <div className="flex items-start gap-2.5 pt-2 border-t border-[#EAE5DC]">
                   <Clock className="w-4 h-4 text-[#B88E2F] shrink-0 mt-0.5" />
                   <div>
                     <span className="font-semibold text-[#14171C] block">Operating Hours:</span>
                     <span>{siteConfig.operatingHours}</span>
                   </div>
+                </div>
+
+                {/* Embedded Map Container */}
+                <div className="mt-3 rounded-xl overflow-hidden border border-[#EAE5DC] shadow-inner h-52 relative">
+                  <iframe
+                    src={siteConfig.mapEmbedUrl}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Shabari Packers and Movers Office Location"
+                    className="w-full h-full"
+                  />
                 </div>
               </div>
             </div>

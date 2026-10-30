@@ -93,17 +93,18 @@ export function generateLocalBusinessSchema({
     priceRange: '₹₹',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Plot No. 42, Prashanth Nagar, Kukatpally / Miyapur Corridor',
-      addressLocality: 'Hyderabad',
+      streetAddress: 'Near Bhajan Mandir Road',
+      addressLocality: 'Kothagudem',
       addressRegion: 'Telangana',
-      postalCode: '500072',
+      postalCode: '507101',
       addressCountry: 'IN',
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: '17.4933',
-      longitude: '78.3914',
+      latitude: '17.5516291',
+      longitude: '80.6198011',
     },
+    hasMap: siteConfig.googleMapsUrl,
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',

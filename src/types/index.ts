@@ -9,6 +9,12 @@ export interface BusinessInfo {
   email: string;
   headquarters: string;
   fullAddress: string;
+  googleMapsUrl: string;
+  mapEmbedUrl: string;
+  mapCoordinates: {
+    lat: number;
+    lng: number;
+  };
   operatingHours: string;
   establishedNotice: string;
   baseUrl: string;

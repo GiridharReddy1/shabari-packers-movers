@@ -47,7 +47,18 @@ export default function Footer() {
             <div className="pt-2 space-y-2 text-sm text-stone-300">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#B88E2F] shrink-0 mt-0.5" />
-                <span>{siteConfig.fullAddress}</span>
+                <a
+                  href={siteConfig.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors group"
+                  title="Open office location in Google Maps"
+                >
+                  <span>{siteConfig.fullAddress}</span>
+                  <span className="block text-xs text-[#B88E2F] group-hover:underline mt-0.5 font-medium">
+                    📍 View on Google Maps →
+                  </span>
+                </a>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#B88E2F] shrink-0" />

@@ -11,6 +11,9 @@ import {
   Box,
   MapPin,
   Clock,
+  Navigation,
+  ExternalLink,
+  Compass,
 } from 'lucide-react';
 import { siteConfig, getTelUrl, getWhatsAppUrl } from '@/data/siteConfig';
 import { getPublishedServices } from '@/data/services';
@@ -355,6 +358,183 @@ export default function HomePage() {
             <p className="text-xs text-[#56616D] leading-relaxed">
               We invite every customer we serve across Hyderabad and South India to share their authentic feedback on our verified Google Business Profile. If you have any questions or would like references from recent moves in your locality, our team is always pleased to connect.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* 13B. OFFICE LOCATION & GOOGLE MAPS SECTION */}
+      <section className="py-16 sm:py-24 bg-[#FAF8F5] border-b border-[#EAE5DC] relative overflow-hidden" id="office-location">
+        {/* Subtle decorative background blur */}
+        <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-20 w-80 h-80 rounded-full bg-[#E8D7B8]/20 blur-3xl pointer-events-none" />
+        <div className="absolute top-0 right-0 translate-x-20 w-96 h-96 rounded-full bg-[#0F2C59]/5 blur-3xl pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-[#B88E2F] bg-[#F9F5EC] border border-[#E8D7B8] mb-3">
+              <Compass className="w-3.5 h-3.5" />
+              <span>Visit Us In Person</span>
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#14171C] font-serif tracking-tight">
+              Our Office Location & Driving Directions
+            </h2>
+            <p className="mt-3 text-sm sm:text-base text-[#56616D] leading-relaxed">
+              Customers are warmly welcomed to visit our office for in-person moving consultations, packaging demonstrations, or booking discussions. Navigate directly with Google Maps below.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+            {/* Left Card: Office & Contact Info */}
+            <div className="lg:col-span-5 bg-white rounded-2xl p-6 sm:p-8 border border-[#EAE5DC] shadow-sm flex flex-col justify-between">
+              <div className="space-y-6">
+                {/* Header with status pill */}
+                <div className="flex items-center justify-between pb-4 border-b border-[#EAE5DC]">
+                  <div>
+                    <span className="text-xs font-semibold text-[#B88E2F] uppercase tracking-wider block">Office & Dispatch Hub</span>
+                    <h3 className="text-lg sm:text-xl font-bold text-[#14171C] mt-0.5">Shabari Packers & Movers</h3>
+                  </div>
+                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                    <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                    Open Today
+                  </span>
+                </div>
+
+                {/* Address block */}
+                <div className="flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-[#F9F5EC] border border-[#E8D7B8] flex items-center justify-center shrink-0 text-[#B88E2F] mt-0.5">
+                    <MapPin className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-[#14171C]">Office Address</h4>
+                    <a
+                      href={siteConfig.googleMapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-[#56616D] hover:text-[#0F2C59] mt-1 leading-relaxed block group"
+                      title="Open office location in Google Maps"
+                    >
+                      <span className="group-hover:underline">{siteConfig.fullAddress}</span>
+                      <span className="block text-xs text-[#B88E2F] group-hover:underline mt-0.5 font-medium">
+                        📍 View on Google Maps →
+                      </span>
+                    </a>
+                    <p className="text-xs text-[#857567] mt-1">
+                      Coordinates: 17.5516291° N, 80.6198011° E
+                    </p>
+                  </div>
+                </div>
+
+                {/* Operating hours */}
+                <div className="flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-xl bg-[#F9F5EC] border border-[#E8D7B8] flex items-center justify-center shrink-0 text-[#B88E2F] mt-0.5">
+                    <Clock className="w-4 h-4" />
+                  </div>
+                  <div>
+                    <h4 className="text-sm font-semibold text-[#14171C]">Working Hours</h4>
+                    <p className="text-sm text-[#56616D] mt-1">
+                      {siteConfig.operatingHours}
+                    </p>
+                    <p className="text-xs text-stone-500 mt-1">
+                      Direct coordinator available on-site for booking schedules.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Direct Contact links */}
+                <div className="p-4 bg-[#FAF8F5] rounded-xl border border-[#EAE5DC] space-y-2.5 text-xs">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[#56616D] font-medium">Direct Telephone:</span>
+                    <a href={getTelUrl()} className="font-semibold text-[#0F2C59] hover:underline flex items-center gap-1">
+                      <Phone className="w-3.5 h-3.5 text-[#B88E2F]" />
+                      <span>{siteConfig.displayPhone}</span>
+                    </a>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-[#56616D] font-medium">Instant WhatsApp:</span>
+                    <a
+                      href={getWhatsAppUrl()}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-emerald-700 hover:underline flex items-center gap-1"
+                    >
+                      <MessageSquare className="w-3.5 h-3.5 text-emerald-600" />
+                      <span>Chat with Office</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="pt-6 mt-6 border-t border-[#EAE5DC] space-y-3">
+                <a
+                  href={siteConfig.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm font-semibold text-white bg-[#0F2C59] hover:bg-[#0A1C38] shadow-sm hover:shadow-md transition-all group"
+                >
+                  <Navigation className="w-4 h-4 text-[#E8D7B8] group-hover:rotate-12 transition-transform" />
+                  <span>Open in Google Maps for Navigation</span>
+                  <ExternalLink className="w-4 h-4 ml-1 opacity-70" />
+                </a>
+
+                <a
+                  href={getTelUrl()}
+                  className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-xs font-semibold text-[#14171C] bg-white border border-[#EAE5DC] hover:border-[#B88E2F] hover:bg-stone-50 transition-colors"
+                >
+                  <Phone className="w-3.5 h-3.5 text-[#B88E2F]" />
+                  <span>Call Before You Arrive: {siteConfig.displayPhone}</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Right Card: Interactive Map View */}
+            <div className="lg:col-span-7 bg-white rounded-2xl border border-[#EAE5DC] shadow-sm overflow-hidden flex flex-col min-h-[440px] sm:min-h-[500px]">
+              {/* Map header bar */}
+              <div className="px-5 py-3.5 bg-stone-50 border-b border-[#EAE5DC] flex items-center justify-between flex-wrap gap-2">
+                <div className="flex items-center gap-2">
+                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <span className="text-xs font-semibold text-[#14171C]">Live Google Maps Office Pin</span>
+                  <span className="text-xs text-[#56616D] hidden sm:inline">• 17.5516291, 80.6198011</span>
+                </div>
+                <a
+                  href={siteConfig.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#0F2C59] hover:text-[#B88E2F] transition-colors"
+                >
+                  <span>View Larger Map</span>
+                  <ExternalLink className="w-3 h-3" />
+                </a>
+              </div>
+
+              {/* Interactive iframe with fallback button */}
+              <div className="flex-1 relative w-full h-full min-h-[380px] bg-stone-100">
+                <iframe
+                  src={siteConfig.mapEmbedUrl}
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Shabari Packers and Movers Google Maps Location"
+                  className="w-full h-full absolute inset-0"
+                />
+
+                {/* Floating overlay chip for immediate directions on mobile/desktop */}
+                <div className="absolute bottom-4 left-4 right-4 sm:right-auto z-10 pointer-events-auto">
+                  <a
+                    href={siteConfig.googleMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-[#0F2C59]/95 hover:bg-[#0F2C59] backdrop-blur-md shadow-lg border border-white/20 transition-all hover:scale-[1.02]"
+                  >
+                    <Navigation className="w-3.5 h-3.5 text-[#E8D7B8]" />
+                    <span>Navigate Here with Google Maps</span>
+                    <ExternalLink className="w-3 h-3 opacity-80" />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
