@@ -6,7 +6,7 @@ import { statesData, citiesData, getHyderabadLocalities } from '@/data/locations
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.baseUrl;
-  const now = new Date('2026-10-26T00:00:00.000Z');
+  const now = new Date();
 
   // 1. Core Static Pages
   const staticPages = [

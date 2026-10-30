@@ -8,9 +8,9 @@ import { constructMetadata, generateBreadcrumbSchema } from '@/lib/seo';
 import { siteConfig, getTelUrl, getWhatsAppUrl } from '@/data/siteConfig';
 
 export const metadata: Metadata = constructMetadata({
-  title: 'Get a Free Moving Quote | Shabari Packers and Movers',
+  title: 'Get Free Packers and Movers Quotation | Home & Office Shifting Rates',
   description:
-    'Request a free, accurate relocation quote from Shabari Packers and Movers. Household shifting, office moves, and interstate relocations across Telangana, AP & Karnataka.',
+    'Calculate and request a free packers and movers quotation from Shabari. Transparent charges for 1 BHK, 2 BHK, 3 BHK household shifting, vehicle transport & interstate moving.',
   canonicalPath: '/get-quote',
 });
 

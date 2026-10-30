@@ -73,6 +73,16 @@ const homeFaqs = [
     answer:
       'You can reach our customer support team directly at +91 98481 61321, on WhatsApp at the same number, or via email at contact@shabaripackers.com.',
   },
+  {
+    question: 'Why choose Shabari Packers and Movers over other moving companies?',
+    answer:
+      'Shabari Packers and Movers provides direct coordinator support, verified in-house moving crews (no third-party daily laborers), 4-layer premium protective packaging (bubble wrap, corrugated sheets, stretch wrap, and heavy-duty cartons), and upfront transparent quotations with zero hidden costs.',
+  },
+  {
+    question: 'Do you provide bike and car transportation services?',
+    answer:
+      'Yes, we provide safe vehicle transportation for motorcycles, scooters, and cars using dedicated carriers with secure wheel chocks and safety strapping across Telangana, Andhra Pradesh, and Karnataka.',
+  },
 ];
 
 export default function HomePage() {
@@ -99,15 +109,17 @@ export default function HomePage() {
                 <span>Hyderabad • Telangana • Andhra Pradesh • Karnataka</span>
               </div>
 
-              {/* Suggested H1 */}
+              {/* Primary SEO H1 */}
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#14171C] font-serif tracking-tight leading-[1.15]">
-                Moving Made Simple.{' '}
-                <span className="text-[#0F2C59] block sm:inline">Care You Can Trust.</span>
+                Shabari Packers and Movers{' '}
+                <span className="text-[#0F2C59] block text-2xl sm:text-3xl lg:text-4xl font-sans font-bold mt-2">
+                  Best Household Shifting & Relocation Services
+                </span>
               </h1>
 
               {/* Supporting Text */}
               <p className="text-base sm:text-lg text-[#56616D] max-w-xl leading-relaxed">
-                Reliable packing and moving solutions for your home, office, and next destination. Let Shabari help make your move simpler and better organised.
+                Looking for trusted packers and movers? Shabari Packers and Movers delivers safe home shifting, office relocation, vehicle transport, and expert 4-layer packing across Hyderabad, Kothagudem, Telangana, Andhra Pradesh, and Karnataka.
               </p>
 
               {/* CTAs */}
@@ -516,6 +528,187 @@ export default function HomePage() {
               <span>Explore All 10 Moving Services & Preparation Tips</span>
               <ArrowRight className="w-4 h-4 ml-2" />
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* PRICING & COST ESTIMATION GUIDE (High SEO Intent for 'packers and movers charges') */}
+      <section className="py-16 sm:py-20 bg-[#FAF8F5] border-b border-[#EAE5DC]" id="pricing-guide">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-[#B88E2F] bg-[#F9F5EC] border border-[#E8D7B8] mb-3">
+              <CheckCircle className="w-3.5 h-3.5" />
+              <span>Transparent Pricing</span>
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#14171C] font-serif tracking-tight">
+              Estimated Packers and Movers Charges
+            </h2>
+            <p className="mt-3 text-sm sm:text-base text-[#56616D] leading-relaxed">
+              We believe in honest, transparent pricing with no hidden charges. Below is a realistic cost estimate for household and vehicle shifting based on move volume and transit distance.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* 1 BHK */}
+            <div className="bg-white rounded-2xl p-6 border border-[#EAE5DC] shadow-xs flex flex-col justify-between hover:border-[#B88E2F] transition-all">
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] block">1 BHK Apartment</span>
+                <h3 className="text-xl font-bold text-[#14171C] mt-1 font-serif">Local Shifting</h3>
+                <div className="mt-4 pb-4 border-b border-stone-100">
+                  <span className="text-2xl sm:text-3xl font-extrabold text-[#0F2C59]">₹4,500 – ₹7,500</span>
+                  <span className="text-xs text-[#56616D] block mt-0.5">Approx. local move cost</span>
+                </div>
+                <ul className="mt-4 space-y-2 text-xs text-[#56616D]">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Standard carton packing</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>1 dedicated transport mini-truck</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>2–3 trained loading crew</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Loading & unloading included</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="pt-6 mt-6 border-t border-[#EAE5DC]">
+                <Link
+                  href="/get-quote"
+                  className="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl text-xs font-semibold text-[#0F2C59] bg-[#F9F5EC] hover:bg-[#E8D7B8]/40 border border-[#E8D7B8] transition-colors"
+                >
+                  <span>Get 1 BHK Quote</span>
+                </Link>
+              </div>
+            </div>
+
+            {/* 2 BHK */}
+            <div className="bg-white rounded-2xl p-6 border border-[#B88E2F]/60 shadow-sm flex flex-col justify-between relative ring-2 ring-[#B88E2F]/20">
+              <span className="absolute -top-3 right-4 px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase tracking-wider bg-[#0F2C59] text-white">
+                Most Popular
+              </span>
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] block">2 BHK Apartment</span>
+                <h3 className="text-xl font-bold text-[#14171C] mt-1 font-serif">Standard Home</h3>
+                <div className="mt-4 pb-4 border-b border-stone-100">
+                  <span className="text-2xl sm:text-3xl font-extrabold text-[#0F2C59]">₹6,500 – ₹11,000</span>
+                  <span className="text-xs text-[#56616D] block mt-0.5">Approx. local move cost</span>
+                </div>
+                <ul className="mt-4 space-y-2 text-xs text-[#56616D]">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Multi-layer bubble & box packing</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Dedicated 14ft container vehicle</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>3–4 trained moving crew</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Bed dismantling & placement</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="pt-6 mt-6 border-t border-[#EAE5DC]">
+                <Link
+                  href="/get-quote"
+                  className="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl text-xs font-semibold text-white bg-[#0F2C59] hover:bg-[#0A1C38] transition-colors shadow-2xs"
+                >
+                  <span>Get 2 BHK Quote</span>
+                </Link>
+              </div>
+            </div>
+
+            {/* 3 BHK */}
+            <div className="bg-white rounded-2xl p-6 border border-[#EAE5DC] shadow-xs flex flex-col justify-between hover:border-[#B88E2F] transition-all">
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] block">3 BHK / Large Flat</span>
+                <h3 className="text-xl font-bold text-[#14171C] mt-1 font-serif">Executive Home</h3>
+                <div className="mt-4 pb-4 border-b border-stone-100">
+                  <span className="text-2xl sm:text-3xl font-extrabold text-[#0F2C59]">₹9,500 – ₹16,000</span>
+                  <span className="text-xs text-[#56616D] block mt-0.5">Approx. local move cost</span>
+                </div>
+                <ul className="mt-4 space-y-2 text-xs text-[#56616D]">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Premium 4-layer fragile wrapping</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>17ft / 19ft covered transport truck</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>4–6 experienced movers</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Electronics & appliance packing</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="pt-6 mt-6 border-t border-[#EAE5DC]">
+                <Link
+                  href="/get-quote"
+                  className="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl text-xs font-semibold text-[#0F2C59] bg-[#F9F5EC] hover:bg-[#E8D7B8]/40 border border-[#E8D7B8] transition-colors"
+                >
+                  <span>Get 3 BHK Quote</span>
+                </Link>
+              </div>
+            </div>
+
+            {/* Interstate / Long Distance */}
+            <div className="bg-white rounded-2xl p-6 border border-[#EAE5DC] shadow-xs flex flex-col justify-between hover:border-[#B88E2F] transition-all">
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] block">Interstate & Intercity</span>
+                <h3 className="text-xl font-bold text-[#14171C] mt-1 font-serif">State-to-State</h3>
+                <div className="mt-4 pb-4 border-b border-stone-100">
+                  <span className="text-2xl sm:text-3xl font-extrabold text-[#0F2C59]">Custom Quote</span>
+                  <span className="text-xs text-[#56616D] block mt-0.5">Based on distance & weight</span>
+                </div>
+                <ul className="mt-4 space-y-2 text-xs text-[#56616D]">
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Direct highway dispatches</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Hyderabad – Bengaluru – AP</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Car & bike carriers available</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Zero transshipment risk</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="pt-6 mt-6 border-t border-[#EAE5DC]">
+                <Link
+                  href="/get-quote"
+                  className="w-full inline-flex items-center justify-center py-2.5 px-4 rounded-xl text-xs font-semibold text-[#0F2C59] bg-[#F9F5EC] hover:bg-[#E8D7B8]/40 border border-[#E8D7B8] transition-colors"
+                >
+                  <span>Get Interstate Estimate</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 text-center">
+            <p className="text-xs text-[#56616D]">
+              * Note: Actual moving rates may vary based on floor level, elevator availability, packaging material choices, and total transit distance. <a href={getTelUrl()} className="font-semibold text-[#0F2C59] underline hover:text-[#B88E2F]">Call +91 98481 61321</a> for an instant customized quotation.
+            </p>
           </div>
         </div>
       </section>

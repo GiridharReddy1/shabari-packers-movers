@@ -66,6 +66,12 @@ export function constructMetadata({
             'max-snippet': -1,
           },
         },
+    other: {
+      'geo.region': 'IN-TG',
+      'geo.placename': 'Kothagudem, Telangana',
+      'geo.position': '17.5516291;80.6198011',
+      'ICBM': '17.5516291, 80.6198011',
+    },
   };
 }
 
@@ -133,6 +139,59 @@ export function generateLocalBusinessSchema({
       reviewCount: '482',
       bestRating: '5',
       worstRating: '1',
+    },
+    knowsAbout: [
+      'Packers and Movers',
+      'Household Shifting',
+      'Office Relocation',
+      'Home Relocation',
+      'Bike and Car Transportation',
+      'Interstate Moving',
+      'Local Shifting Hyderabad',
+      'Packing and Unpacking Services',
+      'Fragile Items Crating',
+    ],
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Packers and Movers Services',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Household Shifting Services',
+            description:
+              'Complete household moving for 1 BHK, 2 BHK, 3 BHK apartments, villas, and independent houses.',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Office & Corporate Relocation',
+            description:
+              'Seamless corporate and office shifting with minimum downtime, IT systems protection, and weekend moving options.',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Vehicle & Bike Transportation',
+            description:
+              'Door-to-door two-wheeler and four-wheeler transport in specialized closed container carriers.',
+          },
+        },
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Professional Packing & Unpacking',
+            description:
+              'Multi-layer bubble wrapping, foam cushioning, edge-guards, and heavy-duty corrugated cartons.',
+          },
+        },
+      ],
     },
     contactPoint: {
       '@type': 'ContactPoint',

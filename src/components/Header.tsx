@@ -34,7 +34,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center gap-2 text-stone-200">
             <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span>Reliable Relocations Across Hyderabad, Telangana, AP & Karnataka</span>
+            <span>#1 Trusted Packers and Movers Across Hyderabad, Telangana, AP & Karnataka</span>
           </div>
           <div className="flex items-center gap-4 text-xs font-medium">
             <a

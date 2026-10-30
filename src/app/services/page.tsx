@@ -8,9 +8,9 @@ import { constructMetadata, generateBreadcrumbSchema } from '@/lib/seo';
 import { getPublishedServices } from '@/data/services';
 
 export const metadata: Metadata = constructMetadata({
-  title: 'Packing & Moving Services in Hyderabad, Telangana, AP & Karnataka',
+  title: 'Packers and Movers Services | Household Shifting & Office Relocation',
   description:
-    'Explore professional relocation services by Shabari Packers and Movers: Household shifting, office relocation, local shifting in Hyderabad, domestic transport, and safe packing.',
+    'Explore top-rated relocation services by Shabari Packers and Movers: Home shifting, office relocation, local shifting in Hyderabad, vehicle transport, and safe 4-layer packing.',
   canonicalPath: '/services',
 });
 

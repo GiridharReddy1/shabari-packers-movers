@@ -8,9 +8,9 @@ import { constructMetadata, generateBreadcrumbSchema } from '@/lib/seo';
 import { siteConfig, getTelUrl, getWhatsAppUrl } from '@/data/siteConfig';
 
 export const metadata: Metadata = constructMetadata({
-  title: 'Contact Shabari Packers and Movers | Phone, WhatsApp & Office',
+  title: 'Contact Shabari Packers and Movers | Phone +91 98481 61321 & Office Location',
   description:
-    'Contact Shabari Packers and Movers. Direct telephone: +91 98481 61321, WhatsApp support, and quotation assistance across Hyderabad, Telangana, AP & Karnataka.',
+    'Contact Shabari Packers and Movers for instant home shifting quotes. Call: +91 98481 61321, WhatsApp support & office near Bhajan Mandir Road, Kothagudem, Telangana.',
   canonicalPath: '/contact',
 });
 

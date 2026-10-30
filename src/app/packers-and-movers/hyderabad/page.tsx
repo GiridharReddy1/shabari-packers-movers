@@ -31,10 +31,24 @@ export default function HyderabadHubPage() {
   const breadcrumbSchema = generateBreadcrumbSchema(breadcrumbItems);
   const faqSchema = generateFaqSchema(city.faqs);
   const localBusinessSchema = generateLocalBusinessSchema({
-    name: `${siteConfig.name} - Hyderabad Headquarters`,
+    name: `${siteConfig.name} - Hyderabad Operations Hub`,
     description: city.summary,
     url: `${siteConfig.baseUrl}/packers-and-movers/hyderabad`,
-    areaServed: ['Hyderabad', 'Gachibowli', 'Kukatpally', 'Madhapur', 'Kondapur', 'Secunderabad'],
+    areaServed: [
+      'Hyderabad',
+      'Gachibowli',
+      'Kukatpally',
+      'Madhapur',
+      'Kondapur',
+      'Secunderabad',
+      'Miyapur',
+      'HITEC City',
+      'Manikonda',
+      'Banjara Hills',
+      'Jubilee Hills',
+      'Uppal',
+      'LB Nagar',
+    ],
   });
 
   return (

@@ -8,9 +8,9 @@ import { constructMetadata, generateBreadcrumbSchema } from '@/lib/seo';
 import { getRoutes } from '@/data/routes';
 
 export const metadata: Metadata = constructMetadata({
-  title: 'Interstate & Inter-City Moving Routes | Shabari Packers and Movers',
+  title: 'Interstate Packers and Movers Routes | Hyderabad, Bengaluru, AP & Karnataka',
   description:
-    'Dedicated moving routes connecting Hyderabad, Bengaluru, Vijayawada, Visakhapatnam, Tirupati, and Mysuru. High-grade highway packaging and on-time transit.',
+    'Dedicated moving routes connecting Hyderabad, Bengaluru, Vijayawada, Visakhapatnam, Tirupati, and Mysuru. High-grade highway packaging, vehicle carriers and on-time transit.',
   canonicalPath: '/moving-routes',
 });
 

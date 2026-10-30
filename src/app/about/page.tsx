@@ -9,9 +9,9 @@ import { constructMetadata, generateBreadcrumbSchema } from '@/lib/seo';
 import { siteConfig, getTelUrl, getWhatsAppUrl } from '@/data/siteConfig';
 
 export const metadata: Metadata = constructMetadata({
-  title: 'About Shabari Packers and Movers | Our Story and Relocation Standards',
+  title: 'About Shabari Packers and Movers | Top Relocation & Shifting Company',
   description:
-    'Learn about Shabari Packers and Movers. Rooted in Hyderabad, serving Telangana, Andhra Pradesh, and Karnataka with honest quotes and careful relocation.',
+    'Discover Shabari Packers and Movers. Headquartered in Kothagudem with central dispatch in Hyderabad, serving Telangana, Andhra Pradesh, and Karnataka with honest quotes and careful relocation.',
   canonicalPath: '/about',
 });
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 Shabari Packers and Movers was established to address the common pain points that households face during relocations: hidden price increases on moving day, rough handling of cherished furniture, and poor communication between dispatchers and drivers.
               </p>
               <p>
-                From our registered base in Hyderabad, Telangana, we have built a dependable operational network serving households, corporate transferees, and growing businesses throughout Telangana, Andhra Pradesh, and Karnataka.
+                From our registered headquarters in Kothagudem and central dispatch hub in Hyderabad, Telangana, we have built a dependable operational network serving households, corporate transferees, and growing businesses throughout Telangana, Andhra Pradesh, and Karnataka.
               </p>
               <p>
                 Our philosophy is simple: we treat your possessions with the same dignity and attention to detail that we would expect for our own families. We do not make false claims about having offices in every village or offering instant automated algorithms—instead, we personally assess your inventory to provide accurate, honest quotations.
