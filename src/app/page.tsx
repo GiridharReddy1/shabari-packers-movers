@@ -230,115 +230,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* B. TRUST & SERVICE INTRODUCTION */}
-      <section className="py-16 sm:py-20 bg-[#FAF8F5]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            <div className="lg:col-span-5 space-y-4">
-              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-[#B88E2F] bg-[#F9F5EC] border border-[#E8D7B8]">
-                <ShieldCheck className="w-3.5 h-3.5" />
-                <span>About Shabari</span>
-              </span>
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#14171C] font-serif tracking-tight leading-tight">
-                A Relocation Partner Focused on Care, Clarity, and Respect
-              </h2>
-              <p className="text-sm sm:text-base text-[#56616D] leading-relaxed">
-                Relocating your household or office is not merely about transporting boxes from one street to another. It represents life transitions, precious memories, and fragile investments.
-              </p>
-              <p className="text-sm sm:text-base text-[#56616D] leading-relaxed">
-                At Shabari Packers and Movers, we operate with a genuine commitment to careful handling, clear communication, and personalized coordination across Hyderabad, Telangana, Andhra Pradesh, and Karnataka.
-              </p>
-
-              <div className="pt-2">
-                <Link
-                  href="/about"
-                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#0F2C59] hover:text-[#B88E2F] transition-colors"
-                >
-                  <span>Read More About Our Background & Values</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-            </div>
-
-            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="p-6 bg-white rounded-2xl border border-[#EAE5DC] shadow-xs">
-                <div className="w-10 h-10 rounded-xl bg-[#F9F5EC] text-[#B88E2F] flex items-center justify-center mb-3">
-                  <Box className="w-5 h-5" />
-                </div>
-                <h3 className="text-base font-bold text-[#14171C] font-serif mb-1">
-                  Careful Packing & Handling
-                </h3>
-                <p className="text-xs sm:text-sm text-[#56616D] leading-relaxed">
-                  We use multi-layer bubble wrap, corrugated sheets, and heavy-gauge carton boxes to safeguard delicate china, electronics, and furnishings.
-                </p>
-              </div>
-
-              <div className="p-6 bg-white rounded-2xl border border-[#EAE5DC] shadow-xs">
-                <div className="w-10 h-10 rounded-xl bg-[#F9F5EC] text-[#B88E2F] flex items-center justify-center mb-3">
-                  <Clock className="w-5 h-5" />
-                </div>
-                <h3 className="text-base font-bold text-[#14171C] font-serif mb-1">
-                  Organised Relocation Planning
-                </h3>
-                <p className="text-xs sm:text-sm text-[#56616D] leading-relaxed">
-                  Clear schedules, pre-allocated moving time windows, and early coordination with apartment societies ensure punctual departures.
-                </p>
-              </div>
-
-              <div className="sm:col-span-2 p-6 bg-white rounded-2xl border border-[#EAE5DC] shadow-xs">
-                <div className="w-10 h-10 rounded-xl bg-[#F9F5EC] text-[#B88E2F] flex items-center justify-center mb-3">
-                  <Phone className="w-5 h-5" />
-                </div>
-                <h3 className="text-base font-bold text-[#14171C] font-serif mb-1">
-                  Clear, Direct Communication
-                </h3>
-                <p className="text-xs sm:text-sm text-[#56616D] leading-relaxed">
-                  Direct phone and WhatsApp support without confusing call centers. You communicate directly with coordinators who know your move.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* C. SERVICES OVERVIEW */}
-      <section className="py-16 sm:py-24 bg-white border-y border-[#EAE5DC]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-14">
-            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-[#B88E2F] bg-[#F9F5EC] border border-[#E8D7B8] mb-3">
-              <Truck className="w-3.5 h-3.5" />
-              <span>Comprehensive Relocation</span>
-            </span>
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#14171C] font-serif tracking-tight">
-              Our Professional Moving Services
-            </h2>
-            <p className="mt-3 text-sm sm:text-base text-[#56616D] leading-relaxed">
-              Every relocation has unique requirements. Browse our dedicated services for local shifting, inter-city moves, corporate transfers, and specialized packing.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            {services.slice(0, 3).map((service) => (
-              <ServiceCard key={service.id} service={service} />
-            ))}
-          </div>
-
-          <div className="mt-12 text-center">
-            <Link
-              href="/services"
-              className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-[#0F2C59] bg-[#F9F5EC] hover:bg-[#E8D7B8]/40 border border-[#E8D7B8] rounded-xl transition-colors"
-            >
-              <span>Explore All 10 Moving Services & Preparation Tips</span>
-              <ArrowRight className="w-4 h-4 ml-2" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* G. STATE-WISE LOCATION DIRECTORY (Crucial centerpiece!) */}
-      <LocationDirectory />
-
-      {/* 13B. OFFICE LOCATION & GOOGLE MAPS SECTION */}
+      {/* 2B. OFFICE LOCATION & GOOGLE MAPS SECTION */}
       <section className="py-16 sm:py-24 bg-[#FAF8F5] border-b border-[#EAE5DC] relative overflow-hidden" id="office-location">
         {/* Subtle decorative background blur */}
         <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-20 w-80 h-80 rounded-full bg-[#E8D7B8]/20 blur-3xl pointer-events-none" />
@@ -514,6 +406,114 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* B. TRUST & SERVICE INTRODUCTION */}
+      <section className="py-16 sm:py-20 bg-[#FAF8F5]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div className="lg:col-span-5 space-y-4">
+              <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-[#B88E2F] bg-[#F9F5EC] border border-[#E8D7B8]">
+                <ShieldCheck className="w-3.5 h-3.5" />
+                <span>About Shabari</span>
+              </span>
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#14171C] font-serif tracking-tight leading-tight">
+                A Relocation Partner Focused on Care, Clarity, and Respect
+              </h2>
+              <p className="text-sm sm:text-base text-[#56616D] leading-relaxed">
+                Relocating your household or office is not merely about transporting boxes from one street to another. It represents life transitions, precious memories, and fragile investments.
+              </p>
+              <p className="text-sm sm:text-base text-[#56616D] leading-relaxed">
+                At Shabari Packers and Movers, we operate with a genuine commitment to careful handling, clear communication, and personalized coordination across Hyderabad, Telangana, Andhra Pradesh, and Karnataka.
+              </p>
+
+              <div className="pt-2">
+                <Link
+                  href="/about"
+                  className="inline-flex items-center gap-2 text-sm font-semibold text-[#0F2C59] hover:text-[#B88E2F] transition-colors"
+                >
+                  <span>Read More About Our Background & Values</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="p-6 bg-white rounded-2xl border border-[#EAE5DC] shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#F9F5EC] text-[#B88E2F] flex items-center justify-center mb-3">
+                  <Box className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold text-[#14171C] font-serif mb-1">
+                  Careful Packing & Handling
+                </h3>
+                <p className="text-xs sm:text-sm text-[#56616D] leading-relaxed">
+                  We use multi-layer bubble wrap, corrugated sheets, and heavy-gauge carton boxes to safeguard delicate china, electronics, and furnishings.
+                </p>
+              </div>
+
+              <div className="p-6 bg-white rounded-2xl border border-[#EAE5DC] shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#F9F5EC] text-[#B88E2F] flex items-center justify-center mb-3">
+                  <Clock className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold text-[#14171C] font-serif mb-1">
+                  Organised Relocation Planning
+                </h3>
+                <p className="text-xs sm:text-sm text-[#56616D] leading-relaxed">
+                  Clear schedules, pre-allocated moving time windows, and early coordination with apartment societies ensure punctual departures.
+                </p>
+              </div>
+
+              <div className="sm:col-span-2 p-6 bg-white rounded-2xl border border-[#EAE5DC] shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#F9F5EC] text-[#B88E2F] flex items-center justify-center mb-3">
+                  <Phone className="w-5 h-5" />
+                </div>
+                <h3 className="text-base font-bold text-[#14171C] font-serif mb-1">
+                  Clear, Direct Communication
+                </h3>
+                <p className="text-xs sm:text-sm text-[#56616D] leading-relaxed">
+                  Direct phone and WhatsApp support without confusing call centers. You communicate directly with coordinators who know your move.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* C. SERVICES OVERVIEW */}
+      <section className="py-16 sm:py-24 bg-white border-y border-[#EAE5DC]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center mb-14">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider text-[#B88E2F] bg-[#F9F5EC] border border-[#E8D7B8] mb-3">
+              <Truck className="w-3.5 h-3.5" />
+              <span>Comprehensive Relocation</span>
+            </span>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-[#14171C] font-serif tracking-tight">
+              Our Professional Moving Services
+            </h2>
+            <p className="mt-3 text-sm sm:text-base text-[#56616D] leading-relaxed">
+              Every relocation has unique requirements. Browse our dedicated services for local shifting, inter-city moves, corporate transfers, and specialized packing.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            {services.slice(0, 3).map((service) => (
+              <ServiceCard key={service.id} service={service} />
+            ))}
+          </div>
+
+          <div className="mt-12 text-center">
+            <Link
+              href="/services"
+              className="inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-[#0F2C59] bg-[#F9F5EC] hover:bg-[#E8D7B8]/40 border border-[#E8D7B8] rounded-xl transition-colors"
+            >
+              <span>Explore All 10 Moving Services & Preparation Tips</span>
+              <ArrowRight className="w-4 h-4 ml-2" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* G. STATE-WISE LOCATION DIRECTORY (Crucial centerpiece!) */}
+      <LocationDirectory />
 
       {/* 14. FAQS SECTION */}
       <FAQAccordion
