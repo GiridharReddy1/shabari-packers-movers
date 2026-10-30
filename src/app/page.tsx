@@ -338,30 +338,6 @@ export default function HomePage() {
       {/* G. STATE-WISE LOCATION DIRECTORY (Crucial centerpiece!) */}
       <LocationDirectory />
 
-      {/* 13. CUSTOMER TRUST & TRANSPARENT REVIEWS PHILOSOPHY */}
-      <section className="py-16 sm:py-20 bg-white border-b border-[#EAE5DC]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="w-12 h-12 rounded-full bg-[#F9F5EC] border border-[#E8D7B8] flex items-center justify-center mx-auto mb-4 text-[#B88E2F]">
-            <ShieldCheck className="w-6 h-6" />
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-[#14171C] font-serif">
-            Our Genuine Commitment to Customer Trust
-          </h2>
-          <p className="mt-3 text-sm sm:text-base text-[#56616D] max-w-2xl mx-auto leading-relaxed">
-            We do not publish fabricated five-star reviews, fake certificates, or inflated years of experience. We believe trust is earned on the ground through punctual arrivals, respectful handling of household belongings, and transparent pricing without unexpected hidden charges.
-          </p>
-
-          <div className="mt-8 p-6 bg-[#FAF8F5] rounded-2xl border border-[#EAE5DC] max-w-2xl mx-auto text-left">
-            <p className="text-xs font-semibold uppercase tracking-wider text-[#B88E2F] mb-1">
-              Customer Feedback & Google Business Profile
-            </p>
-            <p className="text-xs text-[#56616D] leading-relaxed">
-              We invite every customer we serve across Hyderabad and South India to share their authentic feedback on our verified Google Business Profile. If you have any questions or would like references from recent moves in your locality, our team is always pleased to connect.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* 13B. OFFICE LOCATION & GOOGLE MAPS SECTION */}
       <section className="py-16 sm:py-24 bg-[#FAF8F5] border-b border-[#EAE5DC] relative overflow-hidden" id="office-location">
         {/* Subtle decorative background blur */}
