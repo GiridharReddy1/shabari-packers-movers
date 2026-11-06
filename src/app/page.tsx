@@ -20,7 +20,7 @@ import { siteConfig, getTelUrl, getWhatsAppUrl } from '@/data/siteConfig';
 import { getPublishedServices } from '@/data/services';
 import ServiceCard from '@/components/ServiceCard';
 import LocationDirectory from '@/components/LocationDirectory';
-import HeroMovingAnimation from '@/components/HeroMovingAnimation';
+import HeroMovingVanBackground from '@/components/HeroMovingVanBackground';
 import QuoteForm from '@/components/QuoteForm';
 import FAQAccordion from '@/components/FAQAccordion';
 import StructuredData from '@/components/StructuredData';
@@ -95,15 +95,18 @@ export default function HomePage() {
       <StructuredData data={faqSchema} />
 
       {/* A. HERO SECTION */}
-      <section className="relative overflow-hidden bg-[#FAF8F5] pt-8 pb-16 sm:pb-24 border-b border-[#EAE5DC]">
+      <section className="relative overflow-hidden bg-[#FAF8F5] pt-8 pb-28 sm:pb-36 lg:pb-44 border-b border-[#EAE5DC]">
+        {/* Realistic Cartoon Moving Van Background Animation */}
+        <HeroMovingVanBackground />
+
         {/* Subtle decorative background circles */}
-        <div className="absolute top-0 right-0 -translate-y-12 translate-x-12 w-96 h-96 rounded-full bg-[#F5EFEB] blur-3xl opacity-60 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 translate-y-12 -translate-x-12 w-96 h-96 rounded-full bg-[#F9F5EC] blur-3xl opacity-50 pointer-events-none" />
+        <div className="absolute top-0 right-0 -translate-y-12 translate-x-12 w-96 h-96 rounded-full bg-[#F5EFEB] blur-3xl opacity-40 pointer-events-none" />
+        <div className="absolute bottom-16 left-0 translate-y-12 -translate-x-12 w-96 h-96 rounded-full bg-[#F9F5EC] blur-3xl opacity-30 pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Content Column */}
-            <div className="lg:col-span-5 space-y-6">
+            <div className="lg:col-span-7 space-y-6">
               {/* Regional Badge */}
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold text-[#0F2C59] bg-[#E8D7B8]/30 border border-[#E8D7B8]">
                 <MapPin className="w-3.5 h-3.5 text-[#B88E2F]" />
@@ -159,9 +162,9 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right Column: 3D Isometric Animation & Interactive Moving Hub */}
-            <div className="lg:col-span-7">
-              <HeroMovingAnimation />
+            {/* Right Column: Quote Form Card */}
+            <div className="lg:col-span-5">
+              <QuoteForm compact />
             </div>
           </div>
         </div>
