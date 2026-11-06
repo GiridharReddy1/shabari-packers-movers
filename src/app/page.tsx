@@ -20,6 +20,7 @@ import { siteConfig, getTelUrl, getWhatsAppUrl } from '@/data/siteConfig';
 import { getPublishedServices } from '@/data/services';
 import ServiceCard from '@/components/ServiceCard';
 import LocationDirectory from '@/components/LocationDirectory';
+import HeroMovingAnimation from '@/components/HeroMovingAnimation';
 import QuoteForm from '@/components/QuoteForm';
 import FAQAccordion from '@/components/FAQAccordion';
 import StructuredData from '@/components/StructuredData';
@@ -102,7 +103,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Left Content Column */}
-            <div className="lg:col-span-7 space-y-6">
+            <div className="lg:col-span-5 space-y-6">
               {/* Regional Badge */}
               <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold text-[#0F2C59] bg-[#E8D7B8]/30 border border-[#E8D7B8]">
                 <MapPin className="w-3.5 h-3.5 text-[#B88E2F]" />
@@ -158,9 +159,9 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Right Column: Quote Form Card */}
-            <div className="lg:col-span-5">
-              <QuoteForm compact />
+            {/* Right Column: 3D Isometric Animation & Interactive Moving Hub */}
+            <div className="lg:col-span-7">
+              <HeroMovingAnimation />
             </div>
           </div>
         </div>
